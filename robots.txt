@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://ksheersagaragrawal.github.io/ksheersagaragrawal.github.io/sitemap.xml
+Sitemap: https://ksheersagaragrawal.github.io/sitemap.xml
