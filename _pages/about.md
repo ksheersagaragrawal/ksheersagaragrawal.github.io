@@ -21,6 +21,6 @@ I am a senior undergraduate, pursuing major in Electrical Engineering and minors
 
 My broad personal interests extend to Algorithms, Optimisation and Machine Learning. I have a knack for programming with a background as a software intern at AmazonGo. 
 
-I'm pursuing a Master's degree to explore cutting-edge algorithms and their applications, focusing on enhancing computer vision systems.
+I want to pursue a Master with a goal to enhance computer vision systems using cutting-edge algorithms.
 
 <!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
