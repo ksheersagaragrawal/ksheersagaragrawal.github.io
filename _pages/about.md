@@ -19,6 +19,8 @@ social: false  # includes social icons at the bottom of the page
 
 I am a senior undergraduate, pursuing major in Electrical Engineering and minors in Computer Science at the Indian Institute of Technology, Gandhinagar.
 
-My broad personal interests extend to Optimization, Algorithms, Deep Learning (DL) and Machine Learning (ML). Meanwhile, I am a member/problem-setter for GRASP (Group for Algorithms and Sport Programming of IIT GN).
+My broad personal interests extend to Algorithms, Optimisation and Machine Learning. I have a knack for programming with a background as a software intern at AmazonGo. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+I'm pursuing a Master's degree to explore cutting-edge algorithms and their applications, focusing on enhancing computer vision systems.
+
+<!-- Link to your social media connections, too. This theme is set up to use [Font Awesome icons](http://fortawesome.github.io/Font-Awesome/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them. -->
