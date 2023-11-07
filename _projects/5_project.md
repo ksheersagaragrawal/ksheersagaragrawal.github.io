@@ -22,9 +22,9 @@ Welcome to the world of our "Snakes and Ladders Game" project, a Python implemen
 
 The core of the game relies on Python's associative arrays, known as **dictionaries**. The dictionaries store information in the form of key-value pairs, where the block number is the key, and the coordinates of the block number are its corresponding value. Randomization is achieved through the Python **random library**, ensuring that rolling a die is an independent event with numbers in the range of one to six.
 
-## How to Play
+## <span style="font-size: 24px;">How to Play</span>
 
-1. The game has two game pieces - <span style="color: yellow; font-weight: bold;">YELLOW</span> and <span style="color: cyan; font-weight: bold;">BLUE</span>. <span style="color: yellow; font-weight: bold;">YELLOW</span> uses the 'Down' arrow key to roll the dice, while <span style="color: cyan; font-weight: bold;">BLUE</span> rolls by using the 'Up' arrow key.
+1. The game has two game pieces - <span style="color: yellow; font-weight: bold;">YELLOW</span> and <span style="color: blue; font-weight: bold;">BLUE</span>. <span style="color: yellow; font-weight: bold;">YELLOW</span> uses the 'Down' arrow key to roll the dice, while <span style="color: blue; font-weight: bold;">BLUE</span> rolls by using the 'Up' arrow key.
 2. The first move is played by <span style="color: yellow; font-weight: bold;">YELLOW</span>. Players take turns rolling the dice and moving their pieces ahead. Unintentional wrong arrow key presses will not affect the game.
 3. There is no double chance on impressive numbers, such as (6,1).
 4. The player who crosses square 30 first wins the game.
@@ -39,15 +39,15 @@ The core of the game relies on Python's associative arrays, known as **dictionar
     Learn more about the project by watching our video tutorial. It provides a step-by-step guide on how to play the game and an inside look at its development.
 </div>
 
-## Contributions
+## <span style="font-size: 24px;">Contributions</span>
 
 Contributions are welcome! If you have ideas for improvements, new features, or want to collaborate on the project, feel free to fork the repository and create a pull request.
 
-## License
+## <span style="font-size: 24px;">License</span>
 
 This project is open-source and available under the MIT License.
 
-## Acknowledgments
+## <span style="font-size: 24px;">Acknowledgments</span>
 
 Special thanks to the creators of the Python Turtle graphics library for making it fun to visualize the game.
 
