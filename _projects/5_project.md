@@ -11,7 +11,7 @@ Welcome to the world of our "Snakes and Ladders Game" project, a Python implemen
 
 **Turtle** is a pre-installed Python library that allows you to command the turtle to draw all over it! Each turtle pointer has a unique identity as a player's piece. The turtle screen resembles a graph sheet, and each point on the screen has individual coordinates.
 
-<div class="row ">
+<div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/Snake.jpg" title="Game BG" class="img-fluid rounded z-depth-1" %}
     </div>
