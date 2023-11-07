@@ -25,17 +25,18 @@ The core of the game relies on Python's associative arrays, known as dictionarie
 
 
 ## How to Play
----
+{% raw %}
+```html
 1. The game has two game pieces - YELLOW and BLUE. YELLOW uses the 'Down' arrow key to roll the dice, while BLUE rolls by using the 'Up' arrow key.
 2. The first move is played by YELLOW. Players take turns rolling the dice and moving their pieces ahead. Unintentional wrong arrow key presses will not affect the game.
 3. There is no double chance on impressive numbers, such as (6,1).
 4. The player who crosses square 30 first wins the game.
 5. If a player's piece lands on the lower-numbered end of a ladder, the player moves the token up to the ladder's higher-numbered square. If the player lands on the higher-numbered square of a snake, the token must be moved down to the snake's lower-numbered enclosure.
----
+{% endraw %}
 
 <div class="row">
     <div class="col-sm">
-        <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=bjgOrAyTI5A" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/bjgOrAyTI5A" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
