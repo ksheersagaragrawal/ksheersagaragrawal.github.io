@@ -80,7 +80,7 @@ title: Snake & Ladder Python Project Report
 description: A Python implementation of the classic Snakes and Ladders game using Turtle graphics.
 img: assets/img/snakes_and_ladders.png
 importance: 3
-category: AutoCAD & Game
+category: Fun
 ---
 
 <div class="row">
