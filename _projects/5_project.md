@@ -9,19 +9,10 @@ category: Fun
 
 Welcome to the world of our "Snakes and Ladders Game" project, a Python implementation of the classic board game using the Turtle graphics library.
 
-# Snake & Ladder Python Project Report
-
-## Project Description
-
-Welcome to the world of our "Snake & Ladder" project, a Python implementation of the classic board game using the Turtle graphics library.
-
 **Snake & Ladder** is a "Turtle" based user-friendly game. Turtle is a pre-installed Python library that allows you to command the turtle to draw all over it! Each turtle pointer has a unique identity as a player's piece. The turtle screen resembles a graph sheet, and each point on the screen has individual coordinates.
 
 The core of the game relies on Python's associative arrays, known as dictionaries. The dictionaries store information in the form of key-value pairs, where the block number is the key, and the coordinates of the block number are its corresponding value. Randomization is achieved through the Python "random" library, ensuring that rolling a die is an independent event with numbers in the range of one to six.
 
-## Objective
-
-The game is based on sheer luck, and each player has an equal probability of winning. The game not only entertains but also imparts life lessons, depicting virtues (Ladders) and vices (Snakes) in the journey.
 
 ## How to Play
 
@@ -31,15 +22,6 @@ The game is based on sheer luck, and each player has an equal probability of win
 4. The player who crosses square 30 first wins the game.
 5. If a player's piece lands on the lower-numbered end of a ladder, the player moves the token up to the ladder's higher-numbered square. If the player lands on the higher-numbered square of a snake, the token must be moved down to the snake's lower-numbered enclosure.
 
-## YouTube Video
-
-<div class="row">
-    <div class="col-sm">
-        <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=bjgOrAyTI5A" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
-
-Learn more about the project by watching our video tutorial. It provides a step-by-step guide on how to play the game and an inside look at its development.
 
 ## Contributions
 
@@ -61,10 +43,10 @@ Enjoy playing the Snake & Ladder Game!
     description: a project with a background image
     img: /assets/img/12.jpg
     ---
-
+<!-- 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/Snakes.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Snake.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
@@ -75,19 +57,26 @@ Enjoy playing the Snake & Ladder Game!
 </div>
 <div class="caption">
     Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
+</div> -->
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/Snake.jpg" title="Game BG" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    The game is based on sheer luck, and each player has an equal probability of winning.
 </div>
 
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
+
+<div class="row">
+    <div class="col-sm">
+        <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=bjgOrAyTI5A" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    Learn more about the project by watching our video tutorial. It provides a step-by-step guide on how to play the game and an inside look at its development.
+</div>
+
 
 
 <div class="row justify-content-sm-center">
