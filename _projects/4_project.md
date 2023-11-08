@@ -13,7 +13,7 @@ Welcome into the world of the Double-Acting Pump! In this video, we delve deep i
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-       <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3A524XWIRYGHEh?hostedIn=slideshare&page=upload" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+       <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3A524XWIRYGHEh?hostedIn=slideshare&page=upload" width="100%" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     </div>
 </div>
 <div class="caption">
