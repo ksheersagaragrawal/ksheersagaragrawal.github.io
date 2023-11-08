@@ -36,11 +36,4 @@ A team of 10 students
 Contributions are welcome! If you have ideas for improvements, new features, or want to collaborate on the project, feel free to reach out on mail.
 
 ## <span style="font-size: 24px;font-weight: bold;">Acknowledgments</span>
-<div class="row">
-    <div class="col-sm">
-        <iframe width="100%" height="450" src="https://www.youtube.com/embed/2_p6WHZqeOQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-</div>
-<div class="caption">
-    Special thanks to Engine On for making it fun to visualise the working of Double Acting Pump. Watch the [YouTube video](https://www.youtube.com/watch?v=2_p6WHZqeOQ) to learn more.
-</div>
+ Special thanks to Engine On for making it fun to visualise the working of Double Acting Pump. Watch the [YouTube video](https://www.youtube.com/watch?v=2_p6WHZqeOQ) to learn more.
