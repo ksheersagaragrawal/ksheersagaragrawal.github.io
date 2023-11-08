@@ -7,7 +7,7 @@ importance: 1
 category: fun
 ---
 
-Welcome into the world of the Double-Acting Pump! In this video, we delve deep into the design, mechanism, and significance of this fascinating mechanical system.
+Welcome into the world of the Double-Acting Pump! In this project, I delve deep into the design, mechanism, and significance of this fascinating mechanical system.
 
 **Double Acting Pump** is a type of reciprocating pump that is designed to produce fluid flow in both directions of its stroke, known as the **push** and **pull** strokes. This type of pump is characterized by its ability to generate pressure during both phases of the stroke, making it highly efficient for **agricultural applications**.
 
@@ -22,7 +22,7 @@ Welcome into the world of the Double-Acting Pump! In this video, we delve deep i
 
 <div class="row">
     <div class="col-sm">
-        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qACneEAyhro" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/qACneEAyhro" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
