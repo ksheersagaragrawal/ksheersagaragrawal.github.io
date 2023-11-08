@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Double Acting Pump
-description: Autocad Design of a Double Acting Pump using AutoDesk Inventor.
+description: Autocad Design of a Mechanical System using AutoDesk Inventor.
 img: /assets/img/dap.png
 importance: 1
 category: fun
@@ -13,14 +13,21 @@ Welcome into the world of the Double-Acting Pump! In this video, we delve deep i
 
 <div class="row text-center">
     <div class="col-sm mt-3 mt-md-0">
-       <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3A524XWIRYGHEh?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+       <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3A524XWIRYGHEh?hostedIn=slideshare&page=upload" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
     </div>
 </div>
 <div class="caption">
-    The game is based on sheer luck, and each player has an equal probability of winning.
+    Comprehensive slides detailing the parts and assembly of a Double Acting Pump.
 </div>
 
-
+<div class="row">
+    <div class="col-sm">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/qACneEAyhro" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    Learn more about the project by watching our video tutorial. It provides a step-by-step guide on how to play the game and an inside look at its development.
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
