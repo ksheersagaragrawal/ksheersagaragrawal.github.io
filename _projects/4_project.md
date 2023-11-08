@@ -1,24 +1,26 @@
 ---
 layout: page
 title: Double Acting Pump
-description: another without an image
+description: Autocad Design of a Double Acting Pump using AutoDesk Inventor.
 img: /assets/img/dap.png
 importance: 1
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+Welcome into the world of the Double-Acting Pump! In this video, we delve deep into the design, mechanism, and significance of this fascinating mechanical system.
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+**Double Acting Pump** is a type of reciprocating pump that is designed to produce fluid flow in both directions of its stroke, known as the **push** and **pull** strokes. This type of pump is characterized by its ability to generate pressure during both phases of the stroke, making it highly efficient for **agricultural applications**.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+       <iframe src="https://www.slideshare.net/slideshow/embed_code/key/3A524XWIRYGHEh?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
+    </div>
+</div>
+<div class="caption">
+    The game is based on sheer luck, and each player has an equal probability of winning.
+</div>
+
+
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
