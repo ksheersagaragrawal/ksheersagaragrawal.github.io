@@ -22,7 +22,7 @@ Welcome to the world of our "Snakes and Ladders Game" project, a Python implemen
 
 The core of the game relies on Python's associative arrays, known as **dictionaries**. The dictionaries store information in the form of key-value pairs, where the block number is the key, and the coordinates of the block number are its corresponding value. Randomization is achieved through the Python **random library**, ensuring that rolling a die is an independent event with numbers in the range of one to six.
 
-## <span style="font-size: 24px;font-weight: bold;>How to Play</span>
+## <span style="font-size: 24px;font-weight: bold;">How to Play</span>
 
 1. The game has two game pieces - <span style="color: yellow; font-weight: bold;">YELLOW</span> and <span style="color: blue; font-weight: bold;">BLUE</span>. <span style="color: yellow; font-weight: bold;">YELLOW</span> uses the 'Down' arrow key to roll the dice, while <span style="color: blue; font-weight: bold;">BLUE</span> rolls by using the 'Up' arrow key.
 2. The first move is played by <span style="color: yellow; font-weight: bold;">YELLOW</span>. Players take turns rolling the dice and moving their pieces ahead. Unintentional wrong arrow key presses will not affect the game.
