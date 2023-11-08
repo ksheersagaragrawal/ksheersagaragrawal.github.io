@@ -1,9 +1,9 @@
 ---
 layout: page
-title: project 4
+title: Double Acting Pump
 description: another without an image
-img:
-importance: 3
+img: /assets/img/dap.png
+importance: 1
 category: fun
 ---
 
