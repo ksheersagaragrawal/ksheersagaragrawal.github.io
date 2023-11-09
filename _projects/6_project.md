@@ -7,10 +7,10 @@ importance: 2
 category: fun
 ---
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords<a href="{{ site.baseurl }}/assets/pdf/spirometer.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
 `COVID-19`,`respiratory diseases`, `spirometry test`, `oxygen levels`,`spirometer`, `Forced vital capacity (FVC)`, `check restricted breathing`.
 
-## <span style="font-size: 24px;font-weight: bold;">Components</span>
+## <span style="font-size: 24px;font-weight: bold;">Components <a href="{{ site.baseurl }}/assets/pdf/spirometer.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 - **Node MCU (ESP 8266):** Microcontroller for data processing.
 - **LM393 Speed Measuring Sensor:** Detects slotted disk rotations.
 - **Arduino-Compatible Components:** Manage data acquisition and processing.
