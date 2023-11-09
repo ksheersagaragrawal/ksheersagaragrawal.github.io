@@ -7,26 +7,18 @@ importance: 2
 category: fun
 ---
 
-The spirometer is a device used to measure the extent of functioning of the lungs. It is crucial in detecting early signs of COVID-19 infection in people and is also used in diagnosing asthma and other pulmonary diseases.
+## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
 
+**COVID-19**, *respiratory diseases*, `spirometry test`, **oxygen levels**, *spirometer*, *Forced vital capacity (FVC)*, `check restricted breathing`.
 
-## Keywords
-COVID-19, respiratory diseases, spirometry test, oxygen levels, spirometer, Forced vital capacity (FVC), check restricted breathing.
-
-## Nomenclature
-- rpm: Rotations per minute
-- N: Number of holes in slotted disk
-- CNC: Computer Numerical Control
-- MCU: Microcontroller Unit
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+<div class="row">
+    <div class="col-sm">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/ZahFPBmPCoM" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    Learn more about the project by watching my assembling video. It provides a time lapse of the development process and calculating rotations per minute (rpm) for lung capacity. 
+</div>
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
