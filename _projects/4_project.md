@@ -7,6 +7,12 @@ importance: 3
 category: fun
 ---
 
+{% raw %}
+```html
+<a href="{{ site.baseurl }}/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
+```
+{% endraw %}
+
 Welcome into the world of the Double-Acting Pump! In this project, I delve deep into the design, mechanism, and significance of this fascinating mechanical system.
 
 **Double Acting Pump** is a type of reciprocating pump that is designed to produce fluid flow in both directions of its stroke, known as the **push** and **pull** strokes. This type of pump is characterized by its ability to generate pressure during both phases of the stroke, making it highly efficient for **agricultural applications**.
@@ -31,8 +37,7 @@ Welcome into the world of the Double-Acting Pump! In this project, I delve deep 
 
 ## <span style="font-size: 24px;font-weight: bold;">Contributions</span>
 
-A team of 10 students
-Contributions are welcome! If you have ideas for improvements, new features, or want to collaborate on the project, feel free to reach out on mail.
+A team of 10 students has developed this project. Contributions are welcome! If you have ideas for improvements, new features, or want to collaborate on the project, feel free to reach out on mail.
 
 ## <span style="font-size: 24px;font-weight: bold;">Acknowledgments</span>
  Special thanks to Engine On for making it fun to visualise the working of Double Acting Pump. Watch the [YouTube video](https://www.youtube.com/watch?v=2_p6WHZqeOQ) to learn more.
