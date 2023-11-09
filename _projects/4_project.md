@@ -9,7 +9,7 @@ category: fun
 
 {% raw %}
 ```html
-<a href="{{ site.baseurl }}/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
+<a href="{/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
 ```
 {% endraw %}
 
