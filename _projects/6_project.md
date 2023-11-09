@@ -7,7 +7,7 @@ importance: 2
 category: fun
 ---
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords<a href="{{ site.baseurl }}/assets/pdf/spirometer.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `COVID-19`,`respiratory diseases`, `spirometry test`, `oxygen levels`,`spirometer`, `Forced vital capacity (FVC)`, `check restricted breathing`.
 
 ## <span style="font-size: 24px;font-weight: bold;">Components</span>
@@ -17,7 +17,7 @@ category: fun
 - **Assembly:** Integrate LM393 sensor with the slotted disk, ensuring precise alignment.
 
 
-## <span style="font-size: 24px;font-weight: bold;">Procedure <a href="{{ site.baseurl }}/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
 1. **Initialize Node MCU:** Set up for data acquisition.
 2. **Establish LM393 Communication:** Connect with the speed measuring sensor.
 3. **Continuous Monitoring:** Create a loop to monitor sensor output.
