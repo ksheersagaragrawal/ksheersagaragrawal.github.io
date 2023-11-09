@@ -8,24 +8,24 @@ category: fun
 ---
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
-
-## Keywords
 `COVID-19`,`respiratory diseases`, `spirometry test`, `oxygen levels`,`spirometer`, `Forced vital capacity (FVC)`, `check restricted breathing`.
 
-## Components Used
-Node MCU (ESP 8266): Microcontroller for data processing.
-LM393 Speed Measuring Sensor: Detects slotted disk rotations.
-Arduino-Compatible Components: Manage data acquisition and processing.
-Assembly: Integrate LM393 sensor with the slotted disk, ensuring precise alignment.
+## <span style="font-size: 24px;font-weight: bold;">Components</span>
+- **Node MCU (ESP 8266):** Microcontroller for data processing.
+- **LM393 Speed Measuring Sensor:** Detects slotted disk rotations.
+- **Arduino-Compatible Components:** Manage data acquisition and processing.
+- **Assembly:** Integrate LM393 sensor with the slotted disk, ensuring precise alignment.
 
-## Procedure
-1. Initialize the Node MCU and configure it for data acquisition.
-2. Establish communication with the LM393 speed measuring sensor.
-3. Set up a loop to continuously monitor the sensor output.
-4. Upon detecting a change in sensor output (hole detection), record the event.
-5. Measure the time between consecutive hole detections to calculate the rotations per minute (rpm).
-6. Transmit the rpm data to a connected computer or display unit.
-7. Repeat the process to ensure real-time monitoring of spirometry readings.
+
+## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
+1. **Initialize Node MCU:** Set up for data acquisition.
+2. **Establish LM393 Communication:** Connect with the speed measuring sensor.
+3. **Continuous Monitoring:** Create a loop to monitor sensor output.
+4. **Event Recording:** Record events on detecting changes in sensor output (hole detection).
+5. **Calculate RPM:** Measure time between consecutive hole detections for rpm.
+6. **Transmit Data:** Send rpm data to a computer or display unit.
+7. **Real-time Monitoring:** Repeat the process for continuous spirometry readings.
+
 
 <div class="row">
     <div class="col-sm">
