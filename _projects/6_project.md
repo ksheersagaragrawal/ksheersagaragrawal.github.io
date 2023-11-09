@@ -18,6 +18,11 @@ category: fun
 
 
 ## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
+{% raw %}
+```html
+<a href="{{ site.baseurl }}/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
+```
+{% endraw %}
 1. **Initialize Node MCU:** Set up for data acquisition.
 2. **Establish LM393 Communication:** Connect with the speed measuring sensor.
 3. **Continuous Monitoring:** Create a loop to monitor sensor output.

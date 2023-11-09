@@ -7,12 +7,6 @@ importance: 3
 category: fun
 ---
 
-{% raw %}
-```html
-<a href="{/assets/pdf/Ksheer_AGRAWAL.pdf" title="CV"><i class="fas fa-file-pdf"></i></a>
-```
-{% endraw %}
-
 Welcome into the world of the Double-Acting Pump! In this project, I delve deep into the design, mechanism, and significance of this fascinating mechanical system.
 
 **Double Acting Pump** is a type of reciprocating pump that is designed to produce fluid flow in both directions of its stroke, known as the **push** and **pull** strokes. This type of pump is characterized by its ability to generate pressure during both phases of the stroke, making it highly efficient for **agricultural applications**.
