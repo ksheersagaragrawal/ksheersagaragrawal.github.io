@@ -1,15 +1,23 @@
 ---
 layout: page
-title: project 6
-description: a project with no image
-img:
+title: Spirometer
+description: A project on Spirometer design and development
+img: assets/img/spirometer.png
 importance: 2
 category: fun
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+The spirometer is a device used to measure the extent of functioning of the lungs. It is crucial in detecting early signs of COVID-19 infection in people and is also used in diagnosing asthma and other pulmonary diseases.
+
+
+## Keywords
+COVID-19, respiratory diseases, spirometry test, oxygen levels, spirometer, Forced vital capacity (FVC), check restricted breathing.
+
+## Nomenclature
+- rpm: Rotations per minute
+- N: Number of holes in slotted disk
+- CNC: Computer Numerical Control
+- MCU: Microcontroller Unit
 
 To give your project a background in the portfolio page, just add the img tag to the front matter like so:
 
