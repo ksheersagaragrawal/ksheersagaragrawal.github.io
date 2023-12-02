@@ -4,7 +4,7 @@ title: Double Acting Pump
 description: Autocad Design of a Mechanical System using AutoDesk Inventor.
 img: /assets/img/dap.png
 importance: 3
-category: fun
+category: Misc
 ---
 
 Welcome into the world of the Double-Acting Pump! In this project, I delve deep into the design, mechanism, and significance of this fascinating mechanical system.

@@ -4,7 +4,7 @@ title: Spirometer
 description: A project on Spirometer design and development
 img: assets/img/spirometer.png
 importance: 2
-category: fun
+category: Misc
 ---
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
