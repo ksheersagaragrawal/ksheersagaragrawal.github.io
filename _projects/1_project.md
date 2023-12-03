@@ -1,11 +1,13 @@
 ---
 layout: page
-title: Placement Database
-description: a project with a background image
+title: Academic Request Database System
+description: Web Application used by Academic Office Of IIT Gandhinagar and University students for requesting academic documents.
+such as Transcripts, Fee Receipts and many more.
 img: assets/img/12.jpg
 importance: 1
-category: System
-repo: ksheersagaragrawal/surveillancerobot
+category: Systems
+giscus_comments: true
+repo: ksheersagaragrawal/Academic_Request_System
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
 
