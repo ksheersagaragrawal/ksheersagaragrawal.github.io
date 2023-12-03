@@ -8,32 +8,35 @@ category: Misc
 giscus_comments: true
 repo: ksheersagaragrawal/EMG-Signal-Analysis
 ---
-## GitHub Repositories
 
+## <span style="font-size: 24px;font-weight: bold;">GitHub Repository</span>
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
     {% include repository/repo.html repository=page.repo %}
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords<a href="{{ site.baseurl }}/assets/pdf/emg.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `EMG Signal Analysis`,`Muscle Activation Signal`,`Anomaly Detection` `Raw Signal Processing`, `Time Domain Analysis`,`Filtering`, `Zero Padding`, `Windowing`.
-
-## <span style="font-size: 24px;font-weight: bold;">Components <a href="{{ site.baseurl }}/assets/pdf/emg.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
-- **Node MCU (ESP 8266):** Microcontroller for data processing.
-- **LM393 Speed Measuring Sensor:** Detects slotted disk rotations.
-- **Arduino-Compatible Components:** Manage data acquisition and processing.
-- **Assembly:** Integrate LM393 sensor with the slotted disk, ensuring precise alignment.
 
 
 ## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
-1. **Initialize Node MCU:** Set up for data acquisition.
-2. **Establish LM393 Communication:** Connect with the speed measuring sensor.
-3. **Continuous Monitoring:** Create a loop to monitor sensor output.
-4. **Event Recording:** Record events on detecting changes in sensor output (hole detection).
-5. **Calculate RPM:** Measure time between consecutive hole detections for rpm.
-6. **Transmit Data:** Send rpm data to a computer or display unit.
-7. **Real-time Monitoring:** Repeat the process for continuous spirometry readings.
+1. **Raw Signal Analysis**
+   - Removal of power line interference using a notch filter.
+   - Filtering out noise using a 4th order Butterworth Bandpass filter.
+   - Full-wave rectification to zero-mean power.
+
+2. **Time Domain Analysis**
+   - Calculation of Mean Absolute Value (MAV) and Root Mean Square (RMS).
+
+3. **Frequency Domain Analysis**
+   - Fast Fourier Transform (FFT) to analyze frequency components.
+   - Application of bandpass filters for specific frequency ranges.
+   - Zero-padding to enhance frequency resolution.
+   - Windowing to mitigate spectral leakage effects.
+
+4. **Pattern Recognition**
+   - Recognition of sustained smiling patterns.
 
 
 <div class="row">
@@ -42,6 +45,6 @@ repo: ksheersagaragrawal/EMG-Signal-Analysis
     </div>
 </div>
 <div class="caption">
-    Learn more about the project by watching out analysis video. It provides a detailed explaination of the data aquisition and pre-processing of the raw signal captured. 
+    Learn more about the project by watching our analysis video. It provides a detailed explaination of the data aquisition and pre-processing of the raw signal captured. 
 </div>
 
