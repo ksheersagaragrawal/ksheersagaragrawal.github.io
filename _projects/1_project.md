@@ -1,11 +1,11 @@
 ---
 layout: page
-title: project 1
+title: Placement Database System
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-category: AI
-related_publications: einstein1956investigations, einstein1950meaning
+category: System
+# related_publications: einstein1956investigations, einstein1950meaning
 ---
 
 Every project has a beautiful feature showcase page.
