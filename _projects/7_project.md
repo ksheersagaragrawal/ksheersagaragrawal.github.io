@@ -1,7 +1,7 @@
 ---
 layout: page
-title: Academic Request Database System
-description: Web Application used by Academic Office Of IIT Gandhinagar and University students for requesting academic documents.
+title: Image Encryption
+description: Image Encryption Technique based on Chaos Theory and RK Method for confidentiality and protecting sensitive visual information.
 img: assets/img/12.jpg
 importance: 1
 category: Systems
