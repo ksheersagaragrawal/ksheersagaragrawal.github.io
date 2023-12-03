@@ -89,7 +89,7 @@ plt.show()
 {% endraw %}
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 mx-auto">
+    <div class="col-sm mt-3 mt-md-0 mx-auto text-center">
         {% include figure.html path="assets/img/ed_input_mask.png" title="FFT+MASK" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
