@@ -132,11 +132,6 @@ plt.show()
 </div>
 
 
-## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
-1. **Raw Signal Analysis**
-   - Removal of power line interference using a notch filter.
-   - Filtering out noise using a 4th order Butterworth Bandpass filter.
-   - Full-wave rectification to zero-mean power.
 
 
 
