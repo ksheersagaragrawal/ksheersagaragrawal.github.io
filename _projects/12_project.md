@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Edge Detection
-description: Edge Detection in images using Fourier Transform.
+description: Implemtation of FFT and IFT in Python for feature extraction in images.   
 img: assets/img/edgedetection.jpg
 importance: 1
 category: Misc
@@ -17,7 +17,32 @@ repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 {% endif %}
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/ImageSegmentation.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
-`Fourier Series`,`Convolution`,`Discrete Fourier Transform` `Fast Fourier Transform`, `Inverse Fourier Transform`,`Windowing`,`Zero Padding` `Edge Detection`.
+`Fourier Series`,`Convolution`,`Discrete Fourier Transform` `Fast Fourier Transform`, `Inverse Fourier Transform`,`Windowing`,`Zero Padding`,`Numpy`,`Matplotlib`,`OpenCV`.
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_first.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_middle.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_final.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    This image can also have a caption. It's like magic.
+</div>
 
 
 ## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
