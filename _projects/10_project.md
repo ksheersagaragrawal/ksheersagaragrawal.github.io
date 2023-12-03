@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Image Encryption
-description: Image Encryption Technique based on Chaos Theory and RK Method for confidentiality and protecting sensitive visual information.
-img: assets/img/12.jpg
-importance: 4
-category: Systems
+title: Statistical Language Modelling Using N-grams
+description: English Word Prediction Model which predicts the next word in a semi-complete sentence
+img: assets/img/3.jpg
+importance: 3
+category: AI
 giscus_comments: true
-repo: ksheersagaragrawal/Academic_Request_System
-# related_publications: einstein1956investigations, einstein1950meaning
+repo: ksheersagaragrawal/surveillancerobot
 ---
 
 Every project has a beautiful feature showcase page.

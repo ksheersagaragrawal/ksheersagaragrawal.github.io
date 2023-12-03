@@ -1,13 +1,12 @@
 ---
 layout: page
-title: Image Encryption
-description: Image Encryption Technique based on Chaos Theory and RK Method for confidentiality and protecting sensitive visual information.
-img: assets/img/12.jpg
-importance: 4
-category: Systems
+title: Edge Detection
+description: Edge Detection in images using Fourier Transform.
+img: assets/img/3.jpg
+importance: 1
+category: Misc
 giscus_comments: true
-repo: ksheersagaragrawal/Academic_Request_System
-# related_publications: einstein1956investigations, einstein1950meaning
+repo: ksheersagaragrawal/surveillancerobot
 ---
 
 Every project has a beautiful feature showcase page.

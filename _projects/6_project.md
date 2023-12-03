@@ -3,7 +3,7 @@ layout: page
 title: Spirometer
 description: A project on Spirometer design and development
 img: assets/img/spirometer.png
-importance: 2
+importance: 4
 category: Misc
 ---
 

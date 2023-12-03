@@ -3,7 +3,7 @@ layout: page
 title: Snakes and Ladders Game
 description: A Python implementation of the classic Snakes and Ladders game using Turtle graphics.
 img: assets/img/Snake.jpg
-importance: 1
+importance: 3
 category: Misc
 ---
 

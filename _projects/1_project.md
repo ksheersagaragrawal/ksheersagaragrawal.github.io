@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Academic Request Database System
-description: Web Application used by Academic Office Of IIT Gandhinagar and University students for requesting academic documents.
+description: Web Application used by Academic Office and Students of IIT GN for requesting academic documents.
 img: assets/img/12.jpg
 importance: 1
 category: Systems
