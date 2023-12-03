@@ -5,7 +5,17 @@ description: A Python implementation of the classic Snakes and Ladders game usin
 img: assets/img/Snake.jpg
 importance: 3
 category: Misc
+giscus_comments: true
+repo: ksheersagaragrawal/Snake-Ladder
 ---
+
+## GitHub Repositories
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
 
 Welcome to the world of our "Snakes and Ladders Game" project, a Python implementation of the classic board game using the Turtle graphics library.
 

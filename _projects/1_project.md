@@ -3,7 +3,7 @@ layout: page
 title: Academic Request Database System
 description: Web Application used by Academic Office and Students of IIT GN for requesting academic documents.
 img: assets/img/12.jpg
-importance: 1
+importance: 3
 category: Systems
 giscus_comments: true
 repo: ksheersagaragrawal/Academic_Request_System
