@@ -5,6 +5,7 @@ description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
 category: Systems
+repo: ksheersagaragrawal/surveillancerobot
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
 
@@ -84,9 +85,6 @@ Here's the code for the last row of images above:
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-  {% for repo in site.data.repositories.github_repos %}
-    {% include repository/repo.html repository=repo %}
-  {% endfor %}
+    {% include repository/repo.html repository=page.repo %}
 </div>
 {% endif %}
-
