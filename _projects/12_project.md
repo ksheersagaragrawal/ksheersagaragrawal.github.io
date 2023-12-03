@@ -68,7 +68,7 @@ plt.show()
 
 **2. Understanding Frequency Components and Edges:** Once we perform the fourier transform of an image, we would see a plot of high and low frequencies. Interestingly, all the low frequency components are saturated at the center, and the high frequency components are scattered around. We then create a high pass filter which would typically be a mask array of the same size as the image with a miniature square of zeroes at the center and rest all ones. 
 {% raw %}
-```html
+```python
 # Center
 rows, cols = img.shape
 crow, ccol = rows // 2, cols // 2
@@ -89,7 +89,7 @@ plt.show()
 {% endraw %}
 
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0">
+    <div class="col-sm mt-3 mt-md-0 mx-auto">
         {% include figure.html path="assets/img/ed_input_mask.png" title="FFT+MASK" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -100,7 +100,7 @@ plt.show()
 **3. Image Restoration and Inverse Fourier Transform:** Now when the mask is applied to the original image, the resultant would only have high frequencies. This becomes quite useful as low frequencies correspond to non-edges in the spatial domain. The result shows High Pass Filtering is an edge detection operation.
 
 {% raw %}
-```html
+```python
 # Restoring the original indexing
 f_ishift = np.fft.ifftshift(fshift)
 
