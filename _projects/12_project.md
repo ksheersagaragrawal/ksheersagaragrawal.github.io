@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Edge Detection
-description: Implemtation of FFT and IFT in Python for feature extraction in images.   
+description: Edge Detection in Images using OpenCV and Python.  
 img: assets/img/edgedetection.jpg
 importance: 1
 category: Misc
@@ -21,47 +21,28 @@ repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 
 ## <span style="font-size: 24px;font-weight: bold;">Algorithm</span>
 
-# Importing numpy, cv2 & matplotlib
+
 {% raw %}
 ```html
+# Importing numpy, cv2 & matplotlib
 import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
-```
-{% endraw %}
 
 # Reading image in grayscale
-{% raw %}
-```html
 img = cv.imread('lal_minar.jpg', 0)
-```
-{% endraw %}
 
 # Frequency transform is a complex array
-{% raw %}
-```html
 f = np.fft.fft2(img)
-```
-{% endraw %}
 
 # Shifting the zero frequency component to the center
-{% raw %}
-```html
 fshift = np.fft.fftshift(f)
-```
-{% endraw %}
 
 # Finding the magnitude spectrum
-{% raw %}
-```html
 A1 = 20
 magnitude_spectrum = A1 * np.log(np.abs(fshift))
-```
-{% endraw %}
 
 # Plotting
-{% raw %}
-```html
 plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Input Image'), plt.xticks([]), plt.yticks([])
 plt.subplot(122), plt.imshow(magnitude_spectrum, cmap='gray')
@@ -69,6 +50,7 @@ plt.title('Magnitude Spectrum'), plt.xticks([]), plt.yticks([])
 plt.show()
 ```
 {% endraw %}
+
 
 # Center
 {% raw %}
@@ -130,11 +112,15 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ed_first.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ed_input.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_input_fft.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
+
 <div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
+    Fourier Transform of Input Image in GrayScale
 </div>
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
