@@ -6,7 +6,7 @@ img: assets/img/emg.png
 importance: 2
 category: Misc
 giscus_comments: true
-repo: neel2571/EMG-Signal-Analysis
+repo: ksheersagaragrawal/EMG-Signal-Analysis
 ---
 ## GitHub Repositories
 
