@@ -21,11 +21,12 @@ repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 
 ## <span style="font-size: 24px;font-weight: bold;">Algorithm</span>
 
-1. **Image Representation:** We define the image as a 2-d function f(x,y) where x and y are spatial coordinates and the amplitude of f at any pair of coordinates (x,y) and the intensity values of the image at that point. For a sinusoidal signal, if the amplitude varies so fast in a short time, you can say it is a high frequency signal. Edges are significant local changes of intensity in an image. More intuitively, at edges the amplitude varies drastically in images. So we can say, edges are high frequency content
+**1. Image Representation:** We define the image as a 2-d function f(x,y) where x and y are spatial coordinates and the amplitude of f at any pair of coordinates (x,y) and the intensity values of the image at that point. For a sinusoidal signal, if the amplitude varies so fast in a short time, you can say it is a high frequency signal. Edges are significant local changes of intensity in an image. More intuitively, at edges the amplitude varies drastically in images. So we can say, edges are high frequency content
 in images.
 {% raw %}
-```html
+```python
 # Importing numpy, cv2 and matplotlib
+
 import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
@@ -65,7 +66,7 @@ plt.show()
     Fourier Transform of Input Image in GrayScale
 </div>
 
-2. **Understanding Frequency Components and Edges:** Once we perform the fourier transform of an image, we would see a plot of high and low frequencies. Interestingly, all the low frequency components are saturated at the center, and the high frequency components are scattered around. We then create a high pass filter which would typically be a mask array of the same size as the image with a miniature square of zeroes at the center and rest all ones. 
+**2. Understanding Frequency Components and Edges:** Once we perform the fourier transform of an image, we would see a plot of high and low frequencies. Interestingly, all the low frequency components are saturated at the center, and the high frequency components are scattered around. We then create a high pass filter which would typically be a mask array of the same size as the image with a miniature square of zeroes at the center and rest all ones. 
 {% raw %}
 ```html
 # Center
@@ -87,7 +88,6 @@ plt.show()
 ```
 {% endraw %}
 
-3. **Understanding Frequency Components and Edges:** 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
         {% include figure.html path="assets/img/ed_input_mask.png" title="FFT+MASK" class="img-fluid rounded z-depth-1" %}
@@ -97,7 +97,7 @@ plt.show()
     After Applying HPF to FFT Transformed Image
 </div>
 
-3. **Image Restoration and Inverse Fourier Transform:** Now when the mask is applied to the original image, the resultant would only have high frequencies. This becomes quite useful as low frequencies correspond to non-edges in the spatial domain. The result shows High Pass Filtering is an edge detection operation.
+**3. Image Restoration and Inverse Fourier Transform:** Now when the mask is applied to the original image, the resultant would only have high frequencies. This becomes quite useful as low frequencies correspond to non-edges in the spatial domain. The result shows High Pass Filtering is an edge detection operation.
 
 {% raw %}
 ```html
