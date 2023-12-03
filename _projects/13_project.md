@@ -1,9 +1,9 @@
 ---
 layout: page
 title: EMG Signal Analsis
-description: Analzying Zygomaticus Muscle Signal using digital signal processing techniques.
+description: Analzying Zygomaticus Muscle Signal in MATLAB using Digital Signal Processing techniques.
 img: assets/img/emg.jpeg
-importance: 2
+importance: 3
 category: Misc
 giscus_comments: true
 repo: ksheersagaragrawal/EMG-Signal-Analysis
