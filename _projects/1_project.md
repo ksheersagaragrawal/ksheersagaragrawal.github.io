@@ -4,7 +4,7 @@ title: Placement Database
 description: a project with a background image
 img: assets/img/12.jpg
 importance: 1
-category: Systems
+category: System
 repo: ksheersagaragrawal/surveillancerobot
 # related_publications: einstein1956investigations, einstein1950meaning
 ---

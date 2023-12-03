@@ -1,11 +1,12 @@
 ---
 layout: page
-title: project 2
+title: IoT SentryRover
 description: a project with a background image and giscus comments
 img: assets/img/3.jpg
 importance: 2
-category: System
+category: Systems
 giscus_comments: true
+repo: ksheersagaragrawal/surveillancerobot
 ---
 
 Every project has a beautiful feature showcase page.
@@ -79,3 +80,11 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
+
+## GitHub Repositories
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
