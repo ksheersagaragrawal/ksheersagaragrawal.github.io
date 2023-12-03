@@ -2,7 +2,7 @@
 layout: page
 title: IoT SentryRover
 description: a project with a background image and giscus comments
-img: assets/img/3.jpg
+img: assets/img/robot.jpg
 importance: 1
 category: Systems
 giscus_comments: true

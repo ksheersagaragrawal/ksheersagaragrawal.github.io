@@ -2,25 +2,29 @@
 layout: page
 title: Edge Detection
 description: Edge Detection in images using Fourier Transform.
-img: assets/img/3.jpg
+img: assets/img/edgedetection.jpg
 importance: 1
 category: Misc
 giscus_comments: true
-repo: ksheersagaragrawal/surveillancerobot
+repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 ---
 
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
+## <span style="font-size: 24px;font-weight: bold;">GitHub Repository</span>
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
 
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/ImageSegmentation.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+`Fourier Series`,`Convolution`,`Discrete Fourier Transform` `Fast Fourier Transform`, `Inverse Fourier Transform`,`Windowing`,`Zero Padding` `Edge Detection`.
 
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
+
+## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
+1. **Raw Signal Analysis**
+   - Removal of power line interference using a notch filter.
+   - Filtering out noise using a 4th order Butterworth Bandpass filter.
+   - Full-wave rectification to zero-mean power.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -80,11 +84,3 @@ Here's the code for the last row of images above:
 </div>
 ```
 {% endraw %}
-
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository=page.repo %}
-</div>
-{% endif %}
