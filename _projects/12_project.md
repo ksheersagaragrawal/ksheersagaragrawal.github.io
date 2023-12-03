@@ -2,7 +2,7 @@
 layout: page
 title: Edge Detection
 description: Edge Detection in Images using OpenCV and Python.  
-img: assets/img/edgedetection.jpg
+img: assets/img/edge_detection.png
 importance: 1
 category: Misc
 giscus_comments: true
@@ -24,7 +24,7 @@ repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 
 {% raw %}
 ```html
-# Importing numpy, cv2 & matplotlib
+# Importing numpy, cv2 and matplotlib
 import cv2 as cv
 import numpy as np
 from matplotlib import pyplot as plt
@@ -51,60 +51,66 @@ plt.show()
 ```
 {% endraw %}
 
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_input.png" title="Input Image" class="img-fluid rounded z-depth-1" %}
+    </div>
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_input_fft.png" title="Magnitude Spectrum" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
 
-# Center
+<div class="caption">
+    Fourier Transform of Input Image in GrayScale
+</div>
+
+
 {% raw %}
 ```html
+# Center
 rows, cols = img.shape
 crow, ccol = rows // 2, cols // 2
-```
-{% endraw %}
 
 # HPF masking, center 12X12 grid masked 0, remaining all ones
-{% raw %}
-```html
 mask = 12
 fshift[crow - mask:crow + mask, ccol - mask:ccol + mask] = 0
-```
-{% endraw %}
 
 # Finding the magnitude spectrum of masked Fourier Transform
-{% raw %}
-```html
 A2 = 2000
 fshift_mask_mag = A2 * np.log(np.abs(fshift))
-```
-{% endraw %}
-
-# Restoring the original indexing
-{% raw %}
-```html
-f_ishift = np.fft.ifftshift(fshift)
-```
-{% endraw %}
-
-# Inverse FFT
-{% raw %}
-```html
-img_back = np.fft.ifft2(f_ishift)
-```
-{% endraw %}
-
-# Finding the magnitude spectrum
-{% raw %}
-```html
-img_back = np.real(img_back)
-```
-{% endraw %}
 
 # Plotting
+plt.imshow(fshift_mask_mag, cmap='gray')
+plt.title('FFT + Mask'), plt.xticks([]), plt.yticks([])
+plt.show()
+```
+{% endraw %}
+
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/img/ed_input_mask.png" title="FFT+MASK" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    After Applying HPF to FFT Transformed Image
+</div>
+
+
 {% raw %}
 ```html
-plt.subplot(131), plt.imshow(img, cmap='gray')
+# Restoring the original indexing
+f_ishift = np.fft.ifftshift(fshift)
+
+# Inverse FFT
+img_back = np.fft.ifft2(f_ishift)
+
+# Finding the magnitude spectrum
+img_back = np.real(img_back)
+
+# Plotting
+plt.subplot(121), plt.imshow(img, cmap='gray')
 plt.title('Lal Minar'), plt.xticks([]), plt.yticks([])
-plt.subplot(132), plt.imshow(fshift_mask_mag, cmap='gray')
-plt.title('FFT + Mask'), plt.xticks([]), plt.yticks([])
-plt.subplot(133), plt.imshow(img_back, cmap='Reds')
+plt.subplot(122), plt.imshow(img_back, cmap='Reds')
 plt.title('Image after HPF'), plt.xticks([]), plt.yticks([])
 plt.show()
 ```
@@ -112,31 +118,14 @@ plt.show()
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ed_input.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ed_input.png" title="Input Image" class="img-fluid rounded z-depth-1" %}
     </div>
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ed_input_fft.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-
-<div class="caption">
-    Fourier Transform of Input Image in GrayScale
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ed_middle.png" title="example image" class="img-fluid rounded z-depth-1" %}
+        {% include figure.html path="assets/img/ed_final.png" title="Image After HPF" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/ed_final.png" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
+    Resultant of HPF - Edge Detection
 </div>
 
 
