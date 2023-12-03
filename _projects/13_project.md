@@ -2,85 +2,12 @@
 layout: page
 title: EMG Signal Analsis
 description: Analzying Zygomaticus Muscle Signal using digital signal processing techniques.
-img: assets/img/3.jpg
+img: assets/img/emg.png
 importance: 2
 category: Misc
 giscus_comments: true
-repo: ksheersagaragrawal/surveillancerobot
+repo: neel2571/EMG-Signal-Analysis
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
-
 ## GitHub Repositories
 
 {% if site.data.repositories.github_repos %}
@@ -88,3 +15,33 @@ Here's the code for the last row of images above:
     {% include repository/repo.html repository=page.repo %}
 </div>
 {% endif %}
+
+## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
+`EMG Signal Analysis`,`Muscle Activation Signal`,`Anomaly Detection` `Raw Signal Processing`, `Time Domain Analysis`,`Filtering`, `Zero Padding`, `Windowing`.
+
+## <span style="font-size: 24px;font-weight: bold;">Components <a href="{{ site.baseurl }}/assets/pdf/emg.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+- **Node MCU (ESP 8266):** Microcontroller for data processing.
+- **LM393 Speed Measuring Sensor:** Detects slotted disk rotations.
+- **Arduino-Compatible Components:** Manage data acquisition and processing.
+- **Assembly:** Integrate LM393 sensor with the slotted disk, ensuring precise alignment.
+
+
+## <span style="font-size: 24px;font-weight: bold;">Procedure</span>
+1. **Initialize Node MCU:** Set up for data acquisition.
+2. **Establish LM393 Communication:** Connect with the speed measuring sensor.
+3. **Continuous Monitoring:** Create a loop to monitor sensor output.
+4. **Event Recording:** Record events on detecting changes in sensor output (hole detection).
+5. **Calculate RPM:** Measure time between consecutive hole detections for rpm.
+6. **Transmit Data:** Send rpm data to a computer or display unit.
+7. **Real-time Monitoring:** Repeat the process for continuous spirometry readings.
+
+
+<div class="row">
+    <div class="col-sm">
+        <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=yzUZTIryukM" frameborder="0" allowfullscreen></iframe>
+    </div>
+</div>
+<div class="caption">
+    Learn more about the project by watching out analysis video. It provides a detailed explaination of the data aquisition and pre-processing of the raw signal captured. 
+</div>
+
