@@ -9,7 +9,7 @@ giscus_comments: true
 repo: ksheersagaragrawal/Snake-Ladder
 ---
 
-## GitHub Repositories
+## <span style="font-size: 24px;font-weight: bold;">Github Repository</span>
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">

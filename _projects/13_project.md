@@ -16,7 +16,7 @@ repo: ksheersagaragrawal/EMG-Signal-Analysis
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords<a href="{{ site.baseurl }}/assets/pdf/emg.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/emg.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `EMG Signal Analysis`,`Muscle Activation Signal`,`Anomaly Detection` `Raw Signal Processing`, `Time Domain Analysis`,`Filtering`, `Zero Padding`, `Windowing`.
 
 
@@ -41,7 +41,7 @@ repo: ksheersagaragrawal/EMG-Signal-Analysis
 
 <div class="row">
     <div class="col-sm">
-        <iframe width="100%" height="315" src="https://www.youtube.com/watch?v=yzUZTIryukM" frameborder="0" allowfullscreen></iframe>
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/yzUZTIryukM" frameborder="0" allowfullscreen></iframe>
     </div>
 </div>
 <div class="caption">
