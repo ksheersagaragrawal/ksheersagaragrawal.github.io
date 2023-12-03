@@ -2,7 +2,7 @@
 layout: page
 title: EMG Signal Analsis
 description: Analzying Zygomaticus Muscle Signal using digital signal processing techniques.
-img: assets/img/emg.png
+img: assets/img/emg.jpeg
 importance: 2
 category: Misc
 giscus_comments: true
