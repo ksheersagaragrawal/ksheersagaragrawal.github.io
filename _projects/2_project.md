@@ -1,85 +1,13 @@
 ---
 layout: page
 title: IoT SentryRover
-description: a project with a background image and giscus comments
+description: STM-32 based IOT Sentry Rover,integrates sensor fusion and robust communication protocol for wide-range controllability.
 img: assets/img/robot.jpg
 importance: 1
 category: Systems
 giscus_comments: true
 repo: ksheersagaragrawal/surveillancerobot
 ---
-
-Every project has a beautiful feature showcase page.
-It's easy to include images in a flexible 3-column grid format.
-Make your photos 1/3, 2/3, or full width.
-
-To give your project a background in the portfolio page, just add the img tag to the front matter like so:
-
-    ---
-    layout: page
-    title: project
-    description: a project with a background image
-    img: /assets/img/12.jpg
-    ---
-
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/1.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/3.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    Caption photos easily. On the left, a road goes through a tunnel. Middle, leaves artistically fall in a hipster photoshoot. Right, in another hipster photoshoot, a lumberjack grasps a handful of pine needles.
-</div>
-<div class="row">
-    <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/5.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    This image can also have a caption. It's like magic.
-</div>
-
-You can also put regular text between your rows of images.
-Say you wanted to write a little bit about your project before you posted the rest of the images.
-You describe how you toiled, sweated, *bled* for your project, and then... you reveal its glory in the next row of images.
-
-
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-<div class="caption">
-    You can also have artistically styled 2/3 + 1/3 images, like these.
-</div>
-
-
-The code is simple.
-Just wrap your images with `<div class="col-sm">` and place them inside `<div class="row">` (read more about the <a href="https://getbootstrap.com/docs/4.4/layout/grid/">Bootstrap Grid</a> system).
-To make images responsive, add `img-fluid` class to each; for rounded corners and shadows use `rounded` and `z-depth-1` classes.
-Here's the code for the last row of images above:
-
-{% raw %}
-```html
-<div class="row justify-content-sm-center">
-    <div class="col-sm-8 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/6.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-    <div class="col-sm-4 mt-3 mt-md-0">
-        {% include figure.html path="assets/img/11.jpg" title="example image" class="img-fluid rounded z-depth-1" %}
-    </div>
-</div>
-```
-{% endraw %}
 
 ## GitHub Repositories
 
@@ -88,3 +16,43 @@ Here's the code for the last row of images above:
     {% include repository/repo.html repository=page.repo %}
 </div>
 {% endif %}
+
+IOT Surveillance Robot is a sentry rover designed for wide-range accessibility. It operates on the NodeMCU protocol, enabling seamless communication and control.
+
+The Surveillance Robot can be controlled remotely through a user-friendly web application hosted at [https://ksheersagaragrawal.github.io/surveillancerobot/src/public/](https://ksheersagaragrawal.github.io/surveillancerobot/src/public/). The web interface provides intuitive controls for real-time interaction with the robot.
+
+<div class="row text-center">
+    <div class="col-sm mt-3 mt-md-0">
+        <embed src="https://ksheersagaragrawal.github.io/surveillancerobot/src/public/" style="width:500px; height: 300px;">
+    </div>
+</div>
+
+# Operation
+
+{% raw %}
+```html
+Surveillance Robot:
+The surveillance robot is designed for unmanned spaces. It has no range constraints and operates on battery power and internet connectivity.
+Team can operate rover using only four keys (A, W, S, D) from anywhere around the globe using a user-friendly web application interface.
+NodeMCU Server facilitates in real time communication between the web application and the sensors.
+Data Processing:
+The NodeMCU reads data from various sensors, including temperature & humidity sensors, Camera Module, GPS Module.
+The NodeMCU connects to the predefined WiFi network and posts the json data on NodeMCU server.
+The Web Application fetches the sensor data from the NodeMCU in real time.
+The Web Application read the movement of operation of the rover and sends the data to the NodeMCU server.
+The NodeMCU reads incoming data and translates it into directional commands to the STM32 microcontroller.
+The STM32 interacts with motor driver, adjusting the robot’s movements based on the interpreted commands.
+Real-time Tracking:
+The surveillance robot features a SIM28ML GPS module that continuously fetches real-time location data.
+The accuracy of location mapping is equivalent to the highest resolution available on Google Maps.
+The robot publishes its location data onto a dedicated website for remote monitoring.
+The web application connects to the live video streaming server using the ESP32 camera module attactched at the fore front of rover.
+ESP32 Cam Module featues Object Detection & Identification with OpenCV. Captured data, including images, can be stored in a database for future reference.
+Sensor Data Transmission:
+The STM32 collects real-time data from temperature and humidity sensors, transmitting this information to the website.
+A safety feature is integrated into the robot, utilizing a proximity sensor at the front.
+In the presence of an unseen barrier, the robot automatically halts its movement, providing a safety mechanism.
+The operator can then redirect the robot in an alternative direction, ensuring safe and obstacle-free operation.
+```
+{% endraw %}
+
