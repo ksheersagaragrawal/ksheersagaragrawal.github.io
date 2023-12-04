@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Spirometer
-description: A project on Spirometer design and development
+description: Arduino based health monitoring equipment for early detection of respiratory issues, including COVID-19.
 img: assets/img/spirometer.png
 importance: 4
 category: Misc
