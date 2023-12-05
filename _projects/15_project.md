@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Object Tracking
 description: Effects of Structured Pruning on Handling Uncertainty Estimates
-img: assets/video/object_detection.avi
+img: assets/video/object_detection.mp4
 importance: 4
 category: AI
 giscus_comments: true
