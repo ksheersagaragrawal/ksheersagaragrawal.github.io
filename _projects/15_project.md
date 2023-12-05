@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Object Tracking
 description: Effects of Structured Pruning on Handling Uncertainty Estimates
-img: assets/img/3.jpg
+img: assets/video/object_detection.avi
 importance: 4
 category: AI
 giscus_comments: true
@@ -16,9 +16,10 @@ repo: ksheersagaragrawal/Real-Time-Object-Tracking-using-GMM
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/rtod_gmm.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
 `Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
 
+## <span style="font-size: 24px;font-weight: bold;">Collab File</span>
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/rtod_gmm.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/rtod_gmm.ipynb %}{% endcapture %}
