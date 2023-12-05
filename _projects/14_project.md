@@ -58,7 +58,7 @@ The Random Walk Algorithm for image segmentation is based on the following steps
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
-        {% include figure.html path="assets/img/randomwalk.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50%;" %}
+        {% include figure.html path="assets/img/randomwalk.png" title="example image" class="img-fluid rounded z-depth-1" style="max-width: 50% !important;" %}
     </div>
 </div>
 <div class="caption">
