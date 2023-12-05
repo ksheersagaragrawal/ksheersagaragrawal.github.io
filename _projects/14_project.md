@@ -2,7 +2,7 @@
 layout: page
 title: Image Segmentation
 description: A Scikit-based implementation of the Random Walker Algorithm for image segmentation - distinuishing various features in digital images.
-img: assets/img/imagesegmentation.jpg
+img: assets/img/imagesegmentation.png
 importance: 6
 category: AI
 giscus_comments: true
@@ -17,7 +17,7 @@ repo: ksheersagaragrawal/Image-Segmentation-using-Random-Walker-Algorithm
 {% endif %}
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_segmentation.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
-`Image Segmentation`, `Random Walker Algorithm`, `Graph Theory`, `Digital Image Processing`, `Python`, `Numpy`, `Matplotlib`, `AI in Imaging`, `Computational Techniques`.
+`Image Segmentation`, `Random Walker Algorithm`, `Graph Theory`, `Digital Image Processing`, `Python`, `Numpy`, `AI in Imaging`, `Computational Techniques`.
 
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/Image_Segmentation.ipynb" | relative_url %}
