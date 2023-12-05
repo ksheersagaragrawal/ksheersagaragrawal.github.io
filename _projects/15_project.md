@@ -2,7 +2,7 @@
 layout: page
 title: Real-Time Object Tracking
 description: A real-time object tracking using Gaussian Mixture Models (GMM), focusing on background subtraction and motion analysis in video streams.
-img: assets/img/rtod.png
+img: assets/img/1.jpg
 importance: 4
 category: AI
 giscus_comments: true
@@ -21,6 +21,9 @@ repo: ksheersagaragrawal/Real-Time-Object-Tracking-using-GMM
 
 ## <span style="font-size: 24px;font-weight: bold;">Real-Time Object Tracking Demonstration</span>
 <div class="row">
+    <div class="col-sm-6 mt-3 mt-md-0">
+        <iframe width="100%" height="315" src="https://www.youtube.com/embed/Gr0HpDM8Ki8" frameborder="0" allowfullscreen></iframe>
+    </div>
     <div class="col-sm mt-3 mt-md-0">
         {% include video.html path="assets/video/object_detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
