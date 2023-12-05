@@ -1,7 +1,7 @@
 ---
 layout: page
 title: IoT SentryRover
-description: STM-32 based IOT Sentry Rover,integrates sensor fusion and robust communication protocol for wide-range controllability.
+description: STM-32 based IOT Sentry Rover, integrates sensor fusion and robust communication protocol for wide-range controllability.
 img: assets/img/robot.jpg
 importance: 1
 category: Systems
@@ -19,7 +19,7 @@ repo: ksheersagaragrawal/surveillancerobot
 {% endif %}
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords</span>
-`Sensor Fusion`,`Computer Vision`, `OpenCV`, `STM-32 Microcontroller`,`NodeMCU`, `Network Communication `, `Embedded Systems`.
+`Sensor Fusion`,`Computer Vision`, `OpenCV`, `STM-32 Microcontroller`, `NodeMCU`, `Network Communication `, `Embedded Systems`.
 
 
 IOT Surveillance Robot is a sentry rover designed for wide-range accessibility. It operates on the NodeMCU protocol, enabling seamless communication and control.
