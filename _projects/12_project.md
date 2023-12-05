@@ -16,7 +16,7 @@ repo: ksheersagaragrawal/Edge-Detection-Using-Fourier-Transform
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/ImageSegmentation.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/edge_detection.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `Fourier Series`,`Convolution`,`Discrete Fourier Transform` `Fast Fourier Transform`, `Inverse Fourier Transform`,`Windowing`,`Zero Padding`,`Numpy`,`Matplotlib`,`OpenCV`.
 
 ## <span style="font-size: 24px;font-weight: bold;">Algorithm</span>
