@@ -20,10 +20,6 @@ repo: ksheersagaragrawal/ImageEncryption
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
 `Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
 
-
-{% raw %}
-
-```html
 {::nomarkdown}
 {% assign jupyter_path = "assets/jupyter/ImageEncryption.ipynb" | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/ImageEncryption.ipynb %}{% endcapture %}
@@ -33,5 +29,3 @@ repo: ksheersagaragrawal/ImageEncryption
     <p>Sorry, the notebook you are looking for does not exist.</p>
 {% endif %}
 {:/nomarkdown}
-```
-{% endraw %}
