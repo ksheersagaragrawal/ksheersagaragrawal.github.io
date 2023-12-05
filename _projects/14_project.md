@@ -38,28 +38,24 @@ The Random Walk Algorithm for image segmentation is based on the following steps
     $$
 
     Where:
-    - `\(L_u\)` is a submatrix of the L matrix containing information about all the unmarked to unmarked nodes.
-    - `\(X\)` is the matrix representing probabilities.
-    - `\(B^T\)` is a submatrix of the L matrix that contains information about all the unmarked nodes to marked nodes.
-    - `\(M\)` matrix is defined for zero and 255 class `\(M_0\)` and `\(M_{255}\)`.
+    - $$L_u$$ is a submatrix of the L matrix containing information about all the unmarked to unmarked nodes.
+    -  $$X$$ is the matrix representing probabilities.
+    - $$B^T$$ is a submatrix of the L matrix that contains information about all the unmarked nodes to marked nodes.
+    - $$M$$ matrix is defined for zero and 255 class $$M_0$$ and $$M_{255}$$.
 
 
-4. **Calculating Probabilities**:
-   - First, calculate `X` using the formula:
-     $$
-     X = L^{-1} \cdot (B^T) \cdot M
-     $$
-     where \( L^{-1} \) is the inverse of matrix `L`, \( B^T \) is the transpose of matrix `B`, and `M` is the predefined matrix.
+3. **Calculating Probabilities**:
+   - First, calculate $$X$$ using the formula:
+     $$X = L^{-1} \cdot (B^T) \cdot M$$
+     where $$L^{-1}$$ is the inverse of matrix $$L$$, $$B^T$$ is the transpose of matrix $$B$$, and $$M$$ is the predefined matrix.
      
-   - The probability for pixel `k` taking the value 0 is given by the corresponding element in matrix `X` for `M0`, which can be represented as:
-     $$
-     P(k \text{ takes value } 0) = X_k \text{ for } M0
-     $$
-     where \( X_k \) is the k-th element in the matrix `X`.
+   - The probability for pixel $$k$$ taking the value 0 is given by the corresponding element in matrix $$X$$ for $$M_0$$, which can be represented as:
+     $$P(k \text{ takes value } 0) = X_k \text{ for } M_0$$
+     where $$X_k$$ is the k-th element in the matrix $$X$$.
 
 
-5. **Image Construction**:
-   - Construct a new image from `X` by comparing their probability to determine the final pixel values.
+4. **Image Construction**:
+   - Construct a new image from $$X$$ by comparing their probability to determine the final pixel values.
 
 ## <span style="font-size: 24px;font-weight: bold;">Accuracy Calculation</span>
 The accuracy of the segmentation is calculated as follows:
