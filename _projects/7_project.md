@@ -17,7 +17,7 @@ repo: ksheersagaragrawal/ImageEncryption
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
 `Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
 
 
@@ -34,5 +34,4 @@ repo: ksheersagaragrawal/ImageEncryption
 {% endif %}
 {:/nomarkdown}
 ```
-
 {% endraw %}
