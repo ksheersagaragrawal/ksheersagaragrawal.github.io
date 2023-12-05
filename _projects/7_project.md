@@ -3,7 +3,7 @@ layout: page
 title: Image Encryption
 description: Image Encryption Technique based on Chaos Theory and RK Method for confidentiality and protecting sensitive visual information.
 img: assets/img/chaos.png
-importance: 4
+importance: 2
 category: Systems
 giscus_comments: true
 repo: ksheersagaragrawal/ImageEncryption
