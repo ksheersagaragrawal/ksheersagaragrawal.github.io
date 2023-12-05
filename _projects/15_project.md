@@ -1,8 +1,9 @@
 ---
 layout: page
 title: Real-Time Object Tracking
-description: Effects of Structured Pruning on Handling Uncertainty Estimates
-img: assets/video/object_detection.mp4
+description: A real-time object tracking using Gaussian Mixture Models (GMM), focusing on background subtraction and motion analysis in video streams.
+
+img: assets/video/rtod.png
 importance: 4
 category: AI
 giscus_comments: true
@@ -17,7 +18,18 @@ repo: ksheersagaragrawal/Real-Time-Object-Tracking-using-GMM
 {% endif %}
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/rtod_gmm.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
-`Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
+`Object Tracking`, `Real-Time Analysis`, `Gaussian Mixture Model (GMM)`, `Matrix Algebra`, `Numpy`, `OpenCV`, `Background Subtraction`, `Video Processing`, `Traffic Surveillance`, `Python Programming`.
+
+## <span style="font-size: 24px;font-weight: bold;">Real-Time Object Tracking Demonstration</span>
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0 mx-auto text-center">
+        {% include video.html path="assets/video/object_detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+<div class="caption">
+   Segments moving objects from the background - demonstrating effective real-time object detection.
+</div>
+
 
 ## <span style="font-size: 24px;font-weight: bold;">Collab File</span>
 {::nomarkdown}
