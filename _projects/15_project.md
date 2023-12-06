@@ -2,7 +2,6 @@
 layout: page
 title: Real-Time Object Tracking
 description: A real-time object tracking using Gaussian Mixture Models (GMM), focusing on background subtraction and motion analysis in video streams.
-
 img: assets/img/rtod.png
 importance: 4
 category: AI
