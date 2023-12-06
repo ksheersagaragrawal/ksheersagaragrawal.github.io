@@ -24,7 +24,7 @@ repo: ksheersagaragrawal/Real-Time-Object-Tracking-using-GMM
     <div class="col-sm-4">
         <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gr0HpDM8Ki8" frameborder="0" allowfullscreen></iframe>
     </div>
-    <div class="col-sm-8">
+    <div class="col-sm-8 mt-3 mt-md-0">
         {% include video.html path="assets/video/object_detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
