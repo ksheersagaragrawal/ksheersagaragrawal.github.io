@@ -16,12 +16,27 @@ repo: ksheersagaragrawal/surveillancerobot
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
-`Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/eigenface.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
+`Object Tracking`, `Real-Time Analysis`, `Gaussian Mixture Model (GMM)`, `Matrix Algebra`, `Numpy`, `OpenCV`, `Background Subtraction`, `Video Processing`, `Traffic Surveillance`, `Python Programming`.
 
+## <span style="font-size: 24px;font-weight: bold;">Real-Time Object Tracking Demonstration</span>
+<div class="row">
+    <div class="col-sm-4 text-center">
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/Gr0HpDM8Ki8" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-8 mt-3 text-center">
+        {% include video.html path="assets/video/object_detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
+    </div>
+</div>
+<div class="caption">
+    This video demonstrates our GMM-based object tracking algorithm in action, highlighting its capability to accurately differentiate and track moving objects in real-time video streams.
+</div>
+
+
+## <span style="font-size: 24px;font-weight: bold;">Collab File</span>
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/ImageEncryption.ipynb" | relative_url %}
-{% capture notebook_exists %}{% file_exists assets/jupyter/ImageEncryption.ipynb %}{% endcapture %}
+{% assign jupyter_path = "assets/jupyter/eigenface.ipynb" | relative_url %}
+{% capture notebook_exists %}{% file_exists assets/jupyter/eigenface.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
 {% else %}
