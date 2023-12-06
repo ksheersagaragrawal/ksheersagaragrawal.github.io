@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Face Recognition 
-description:  Face Recognition using Eigenfaces based on dimensionality reduction and feature extraction techniques in computer vision.
+description:  Face Recognition system that uses PCA to reduce image dimensions and represent faces efficiently using Eigenfaces for accurate identification.
 img: assets/img/average-face-animation.webp
 importance: 5                                                                                        
 category: AI
