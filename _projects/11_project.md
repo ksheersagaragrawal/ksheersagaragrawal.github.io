@@ -1,9 +1,9 @@
 ---
 layout: page
 title: Face Recognition 
-description: Effects of Structured Pruning on Handling Uncertainty Estimates
+description:  Face Recognition using Eigenfaces based on dimensionality reduction and feature extraction techniques in computer vision.
 img: assets/img/average-face-animation.webp
-importance: 5
+importance: 5                                                                                        
 category: AI
 giscus_comments: true
 repo: ksheersagaragrawal/Face-Recognition-Using-Eigenfaces
@@ -17,7 +17,7 @@ repo: ksheersagaragrawal/Face-Recognition-Using-Eigenfaces
 {% endif %}
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/eigenface.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
-`Object Tracking`, `Real-Time Analysis`, `Gaussian Mixture Model (GMM)`, `Matrix Algebra`, `Numpy`, `OpenCV`, `Background Subtraction`, `Video Processing`, `Traffic Surveillance`, `Python Programming`.
+`Face Recognition`, `Eigenfaces`, `PCA`, `Dimensionality Reduction`, `Feature Extraction`, `Computer Vision`, `Machine Learning`, `Python`, `Scikit-learn`, `Image Processing`.
 
 ## <span style="font-size: 24px;font-weight: bold;">Real-Time Object Tracking Demonstration</span>
 <div class="row">
@@ -35,7 +35,7 @@ repo: ksheersagaragrawal/Face-Recognition-Using-Eigenfaces
 
 ## <span style="font-size: 24px;font-weight: bold;">Collab File</span>
 {::nomarkdown}
-{% assign jupyter_path = "assets/jupyter/eiganface.ipynb" | relative_url %}
+{% assign jupyter_path = "assets/jupyter/eiganface.ipynb | relative_url %}
 {% capture notebook_exists %}{% file_exists assets/jupyter/eiganface.ipynb %}{% endcapture %}
 {% if notebook_exists == "true" %}
     {% jupyter_notebook jupyter_path %}
