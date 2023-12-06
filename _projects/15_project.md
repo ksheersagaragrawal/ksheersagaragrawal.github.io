@@ -21,12 +21,15 @@ repo: ksheersagaragrawal/Real-Time-Object-Tracking-using-GMM
 
 ## <span style="font-size: 24px;font-weight: bold;">Real-Time Object Tracking Demonstration</span>
 <div class="row">
-    <div class="col-sm mt-3 mt-md-0 mx-auto text-center">
+    <div class="col-sm">
+        <iframe width="100%" height="450" src="https://www.youtube.com/embed/qACneEAyhro" frameborder="0" allowfullscreen></iframe>
+    </div>
+    <div class="col-sm-6 mt-3 mt-md-0 mx-auto text-center">
         {% include video.html path="assets/video/object_detection.mp4" class="img-fluid rounded z-depth-1" controls=true autoplay=true %}
     </div>
 </div>
 <div class="caption">
-   Segments moving objects from the background - demonstrating effective real-time object detection.
+    This video demonstrates our GMM-based object tracking algorithm in action, highlighting its capability to accurately differentiate and track moving objects in real-time video streams.
 </div>
 
 
