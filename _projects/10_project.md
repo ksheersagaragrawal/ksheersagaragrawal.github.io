@@ -27,9 +27,8 @@ repo: ksheersagaragrawal/Next_Word_Prediction_Using_Ngrams
     </div>
 </div>
 <div class="caption">
-    This image can also have a caption. It's like magic.
+    Initiating the Tale: 'The cat'—a prompt for our Next Word Prediction Model.
 </div>
-
 
 This project leverages the power of N-gram models for predicting the next word in a given sentence fragment. The core of the project is built using Python and the Natural Language Toolkit (NLTK) for processing and analyzing text data. The model uses trigrams as the basis for predictions, incorporating Laplace Smoothing to deal with rare words. The application is made user-friendly and interactive through a Gradio web interface, facilitating easy testing and demonstration of the model's capabilities.
 
