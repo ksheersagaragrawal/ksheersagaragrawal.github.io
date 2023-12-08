@@ -24,7 +24,7 @@ related_publications: ramakrishnan2017deep
 Our research project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
 
 ## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
-GANs are a class of machine learning frameworks designed by opposing two neural networks against each other. A generator network creates images, while a discriminator network evaluates them. Through this adversarial process, the generator learns to produce more realistic images.
+GAN model consists of two neural networks: a generator and a discriminator.The generator network generates synthetic data samples that resemble the training data, while the discriminator network tries to differentiate between the synthetic data and the real data. The generator is trained to produce realistic data while the discriminator is trained to distinguish between real and synthetic data. The networks work together in an adversarial manner to improve the generator's ability to generate realistic data.
 
 <div class="row">
     <div class="col-sm-12 mt-md-0 mx-auto text-center">
