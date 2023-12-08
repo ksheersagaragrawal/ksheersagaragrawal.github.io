@@ -19,14 +19,14 @@ repo: ksheersagaragrawal/DeblurGAN
 ## <span style="font-size: 24px;font-weight: bold;">Keywords </span>
 `Generative Adversarial Networks`, `Dense Connections`, `Skip Connections`, `L1 Loss`, `Adversarial Loss`, `Perceptual Loss`, `Differential Augmentation`, `PyTorch Implementation`, `GAN Discriminator`, `GAN Generator`, `Image Quality Metrics`, `PSNR`, `SSIM`, `Motion Deblurring`, `Deep Convolutional Networks`.
 
-<span style="font-size: 24px;font-weight: bold;">Project Overview</span>
-Our project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
+## <span style="font-size: 24px;font-weight: bold;">Project Overview</span>
+Our research project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
 
-<span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
+## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
 GANs are a class of machine learning frameworks designed by opposing two neural networks against each other. A generator network creates images, while a discriminator network evaluates them. Through this adversarial process, the generator learns to produce more realistic images.
 
-<div class="row text-center">
-    <div class="col-sm-4 mt-3 mt-md-0">
+<div class="row">
+    <div class="col-sm-12 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/gan.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
