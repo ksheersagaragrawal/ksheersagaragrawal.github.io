@@ -2,13 +2,21 @@
 layout: page
 title: Academic Request Database System
 description: Web Application used by Academic Office and Students of IIT GN for requesting academic documents.
-img: assets/img/12.jpg
+img: assets/img/academic_request_system.png
 importance: 3
 category: Systems
 giscus_comments: true
 repo: ksheersagaragrawal/Academic_Request_System
 # related_publications: einstein1956investigations, einstein1950meaning
 ---
+
+## GitHub Repository
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
 
 Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
@@ -82,10 +90,4 @@ Here's the code for the last row of images above:
 ```
 {% endraw %}
 
-## GitHub Repositories
 
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository=page.repo %}
-</div>
-{% endif %}
