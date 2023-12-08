@@ -7,6 +7,7 @@ importance: 2
 category: AI
 giscus_comments: true
 repo: ksheersagaragrawal/DeblurGAN
+related_publications: einstein1956investigations
 ---
 
 <span style="font-size: 24px;font-weight: bold;">GitHub Repository</span>
@@ -16,7 +17,7 @@ repo: ksheersagaragrawal/DeblurGAN
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/motion_blur.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
+## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/Deblur_Poster.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `Generative Adversarial Networks`, `Dense Connections`, `Skip Connections`, `L1 Loss`, `Adversarial Loss`, `Perceptual Loss`, `Differential Augmentation`, `PyTorch Implementation`, `GAN Discriminator`, `GAN Generator`, `Image Quality Metrics`, `PSNR`, `SSIM`, `Motion Deblurring`, `Deep Convolutional Networks`.
 
 ## <span style="font-size: 24px;font-weight: bold;">Project Overview</span>
