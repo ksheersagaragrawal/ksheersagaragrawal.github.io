@@ -23,7 +23,7 @@ repo: ksheersagaragrawal/Face-Recognition-Using-Eigenfaces
 
 {% raw %}
 ```text
-The collab file seems to have corrupted and cannot be viewed on GitHub, however you can still access the code via local IDE like VSCode and Jupyter notebook. I am working on fixing the error "Notebook does not appear to be JSON: ''. If you find any solution do share below.
+The collab file seems to have corrupted and cannot be viewed on GitHub, however you can still access the code via local IDE like VSCode and Jupyter notebook. I am working on fixing the error "Notebook does not appear to be JSON: ''". If you find any solution do share below.
 ```
 {% endraw %}
 

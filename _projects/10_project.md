@@ -2,14 +2,22 @@
 layout: page
 title: Statistical Language Modelling Using N-grams
 description: English Word Prediction Model which predicts the next word in a semi-complete sentence
-img: assets/img/3.jpg
+img: assets/img/next_word.gif
 importance: 3
 category: AI
 giscus_comments: true
-repo: ksheersagaragrawal/surveillancerobot
+repo: ksheersagaragrawal/Next_Word_Prediction_Using_Ngrams
 ---
 
-Every project has a beautiful feature showcase page.
+## GitHub Repository
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
+
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -79,12 +87,5 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
 
-## GitHub Repositories
-
-{% if site.data.repositories.github_repos %}
-<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
-    {% include repository/repo.html repository=page.repo %}
-</div>
-{% endif %}
