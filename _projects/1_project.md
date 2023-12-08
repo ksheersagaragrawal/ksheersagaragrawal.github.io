@@ -19,7 +19,7 @@ repo: ksheersagaragrawal/Academic_Request_System
 
 ## <span style="font-size: 24px;font-weight: bold;">Academic Request System <a href="https://academics.iitgn.ac.in/request/index.php" title="CV"><i class="fas fa-globe"></i></a></span>
 The Academics Office received numerous e-mail requests from students for various certificates, reports, and documents, including Transcripts, Grade Reports, English proficiency certificates, and more, often related to visa applications and scholarships. As student programs continued to expand, the administrative processes became increasingly complex and time-consuming for the academic staff. 
-To address this issue, I along with Prakti Saroj, developed the Academic Request System (ARS), currently used by `2000+` students of the institute. The Academics Office processes more than `100` requests daily on ARS using a ticketing system.
+To address this issue, I along with Prakti Saroj, developed the first iteration of Academic Request System (ARS), currently used by `2000+` students of the institute. The Academics Office processes more than `100` requests daily on ARS using a ticketing system.
 
 ## <span style="font-size: 24px;font-weight: bold;">Requests Featured</span>
 
@@ -39,11 +39,11 @@ To address this issue, I along with Prakti Saroj, developed the Academic Request
     No Backlog Certificate
     ---
 
-## <span style="font-size: 24px;font-weight: bold;">Technolgy Used</span>
+## <span style="font-size: 24px;font-weight: bold;">Technology Used</span>
     ---
-    **Front End:** JavaScript, HTML, CSS, Bootstrap
-    **Back End:** Node.js, Express
-    **Databases:** Google Sheets
-    **Others:** Google Authentication, AppScript, NodeMailer
-    **Deployment:** Heroku Cloud Services, Cpanel
+    Front End: JavaScript, HTML, CSS, Bootstrap
+    Back End: Node.js, Express
+    Databases: Google Sheets
+    Others: Google Authentication, AppScript, NodeMailer
+    Deployment: Heroku Cloud Services, CPanel
     ---

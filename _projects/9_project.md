@@ -7,7 +7,7 @@ importance: 2
 category: AI
 giscus_comments: true
 repo: ksheersagaragrawal/DeblurGAN
-related_publications: einstein1956investigations
+related_publications: ramakrishnan2017deep
 ---
 
 <span style="font-size: 24px;font-weight: bold;">GitHub Repository</span>
