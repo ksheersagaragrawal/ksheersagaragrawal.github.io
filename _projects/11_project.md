@@ -3,7 +3,7 @@ layout: page
 title: Face Recognition 
 description:  Face Recognition system that uses PCA to reduce image dimensions and represent faces efficiently using Eigenfaces for accurate identification.
 img: assets/img/average-face-animation.webp
-importance: 5                                                                                        
+importance: 4                                                                                        
 category: AI
 giscus_comments: true
 repo: ksheersagaragrawal/Face-Recognition-Using-Eigenfaces
