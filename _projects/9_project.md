@@ -2,13 +2,14 @@
 layout: page
 title: Motion Deblur
 description: Removing Motion Blur from Images using Deep Generative Adversarial Network
-img: assets/img/motion_blur.jpeg
+img: assets/img/motion_blur.png
 importance: 2
 category: AI
 giscus_comments: true
 repo: ksheersagaragrawal/DeblurGAN
 ---
-## GitHub Repositories
+
+## GitHub Repository
 
 {% if site.data.repositories.github_repos %}
 <div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
@@ -16,59 +17,32 @@ repo: ksheersagaragrawal/DeblurGAN
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/image_encryption.pdf" title="IPython Notebook"><i class="fas fa-file-code"></i></a></span>
-`Chaos Theory`, `Lorenz Equation`, `Runge Kutta Method`, `Image Encryption`, `Numerical Analysis`, `Python`, `Numpy`, `Matplotlib`, `Cryptography`, `Secure Communication`.
+## <span style="font-size: 24px;font-weight: bold;">Keywords </span>
+`Generative Adversarial Networks`, `Dense Connections`, `Skip Connections`, `L1 Loss`, `Adversarial Loss`, `Perceptual Loss`, `Differential Augmentation`, `PyTorch Implementation`, `GAN Discriminator`, `GAN Generator`, `Image Quality Metrics`, `PSNR`, `SSIM`, `Motion Deblurring`, `Deep Convolutional Networks`.
 
 
-## <span style="font-size: 24px;font-weight: bold;">Random Walk Algorithm Formulas </span>
-The Random Walk Algorithm for image segmentation is based on the following steps and formulas:
+## <span style="font-size: 24px;font-weight: bold;">Project Overview</span>
+Our project aims to address the common challenge in photography and computer vision: removing motion blur from images. Utilizing the power of Deep Generative Adversarial Networks (GANs), our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
 
-1. **Node Marking**:
-   The nodes in the image are marked based on the following criteria:
-    - Let `p(i, j)` be the pixel value at position `(i, j)` in the image.
-    - Mark the nodes as follows:
-        - If `p(i, j) > 110`, then mark as `255` (white).
-        - If `p(i, j) < 75`, then mark as `0` (black).
+## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
+GANs are a class of machine learning frameworks designed by opposing two neural networks against each other. A generator network creates images, while a discriminator network evaluates them. Through this adversarial process, the generator learns to produce more realistic images.
 
-2. **Matrix Operations**:
-   All the unmarked nodes will be marked in subsequent steps. The key formula in the Random Walk Algorithm for image segmentation is:
+## <span style="font-size: 24px;font-weight: bold;">Our Model Architecture</span>
+The architecture of our GAN model is specifically tailored to address motion blur. It includes a unique combination of dense and skip connections to efficiently handle varying degrees of blur without explicit blur kernel estimation.
 
-    $$
-    L_u \cdot X = (-B)^T \cdot M
-    $$
+## <span style="font-size: 24px;font-weight: bold;">Results</span>
+Our model demonstrates remarkable ability in deblurring images. Below are some before-and-after comparisons showcasing the effectiveness of our approach.
 
-    Where:
-    - $$L_u$$ is a submatrix of the L matrix containing information about all the unmarked to unmarked nodes.
-    -  $$X$$ is the matrix representing probabilities.
-    - $$B^T$$ is a submatrix of the L matrix that contains information about all the unmarked nodes to marked nodes.
-    - $$M$$ matrix is defined for zero and 255 class $$M_0$$ and $$M_{255}$$.
-
-
-3. **Calculating Probabilities**:
-   - First, calculate $$X$$ using the formula:
-     $$X = L^{-1} \cdot (B^T) \cdot M$$
-     where $$L^{-1}$$ is the inverse of matrix $$L$$, $$B^T$$ is the transpose of matrix $$B$$, and $$M$$ is the predefined matrix.
-     
-   - The probability for pixel $$k$$ taking the value 0 is given by the corresponding element in matrix $$X$$ for $$M_0$$, which can be represented as:
-     $$P(k \text{ takes value } 0) = X_k \text{ for } M_0$$
-     where $$X_k$$ is the k-th element in the matrix $$X$$.
-
-4. **Image Construction**:
-   - Construct a new image from $$X$$ by comparing their probability to determine the final pixel values.
-
-<div class="row">
+<!-- <div class="row">
+    <!-- Add your before-and-after image comparisons here -->
+    <!-- Example: -->
     <div class="col-sm-4 mt-3 mt-md-0 text-center">
-         {% include figure.html path="assets/img/randomwalk.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         {% include figure.html path="assets/img/before_after_example.jpg" title="Before and After Deblurring" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    Pixels represent nodes with directed, weighted edges.
-</div>
+</div> -->
 
-## <span style="font-size: 24px;font-weight: bold;">Accuracy Calculation</span>
-The accuracy of the segmentation is calculated as follows:
+## <span style="font-size: 24px;font-weight: bold;">Conclusion and Future Work</span>
+Our project not only enhances the quality of images affected by motion blur but also opens new avenues in real-time image processing applications. Future enhancements may include adapting the model for video deblurring and improving its efficiency for mobile devices.
 
-$$
-\text{Accuracy} = \frac{|\text{White Pixels in SkitLearn} - \text{White Pixels in New Image}|}{\text{Total White Pixels} + \text{Total Black Pixels}}
-$$
-
+<!-- ## <span style="font-size: 24px;font-weight: bold;">References and Acknowledgements</span>
+We would like to thank [contributors and references], whose insights and resources were invaluable in the success of this project. -->
