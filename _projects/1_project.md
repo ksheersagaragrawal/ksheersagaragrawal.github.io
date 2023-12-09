@@ -45,5 +45,5 @@ To address this issue, I along with Prakti Saroj, developed the first iteration 
     Back End: Node.js, Express
     Databases: Google Sheets
     Others: Google Authentication, AppScript, NodeMailer
-    Deployment: Heroku Cloud Services, CPanel
+    Deployment: Heroku Cloud Services, cPanel
     ---

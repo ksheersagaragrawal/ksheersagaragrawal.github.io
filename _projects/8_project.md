@@ -2,14 +2,23 @@
 layout: page
 title: Pruning
 description: Effects of Structured Pruning on Handling Uncertainty Estimates
-img: assets/img/3.jpg
+img: assets/img/pruning.png
 importance: 1
 category: AI
 giscus_comments: true
-repo: ksheersagaragrawal/surveillancerobot
+repo: ksheersagaragrawal/LotteryTicketPruning
 ---
 
-Every project has a beautiful feature showcase page.
+## <span style="font-size: 24px;font-weight: bold;">Github Repository</span>
+
+{% if site.data.repositories.github_repos %}
+<div class="repositories d-flex flex-wrap flex-md-row flex-column justify-content-between align-items-center">
+    {% include repository/repo.html repository=page.repo %}
+</div>
+{% endif %}
+
+## <span style="font-size: 24px;font-weight: bold;">Yet to be Updated</span>
+<!-- Every project has a beautiful feature showcase page.
 It's easy to include images in a flexible 3-column grid format.
 Make your photos 1/3, 2/3, or full width.
 
@@ -79,7 +88,7 @@ Here's the code for the last row of images above:
     </div>
 </div>
 ```
-{% endraw %}
+{% endraw %} -->
 
 ## GitHub Repositories
 
