@@ -23,6 +23,15 @@ related_publications: ramakrishnan2017deep
 ## <span style="font-size: 24px;font-weight: bold;">Project Overview <a href="{{ site.baseurl }}/assets/pdf/deblurgan_report.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 Our research project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
 
+<div class="row">
+    <div class="col-sm-9 mt-md-0 mx-auto text-center">
+         {% include figure.html path="assets/img/deblurgan_ex.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Blur, Sharp, and Generated Image
+</div>
+
 ## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
 GAN model consists of two neural networks: a generator and a discriminator.The generator network generates synthetic data samples that resemble the training data, while the discriminator network tries to differentiate between the synthetic data and the real data. The generator is trained to produce realistic data while the discriminator is trained to distinguish between real and synthetic data. The networks work together in an adversarial manner to improve the generator's ability to generate realistic data.
 
