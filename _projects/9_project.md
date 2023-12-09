@@ -20,7 +20,7 @@ related_publications: ramakrishnan2017deep
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/Deblur_Poster.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 `Generative Adversarial Networks`, `Dense Connections`, `Skip Connections`, `L1 Loss`, `Adversarial Loss`, `Perceptual Loss`, `Differential Augmentation`, `PyTorch Implementation`, `GAN Discriminator`, `GAN Generator`, `Image Quality Metrics`, `PSNR`, `SSIM`, `Motion Deblurring`, `Deep Convolutional Networks`.
 
-## <span style="font-size: 24px;font-weight: bold;">Project Overview</span>
+## <span style="font-size: 24px;font-weight: bold;">Project Overview <a href="{{ site.baseurl }}/assets/pdf/deblurgan_report.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
 Our research project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
 
 ## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
