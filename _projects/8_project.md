@@ -20,28 +20,55 @@ related_publications: frankle2018the, blalock2020state,laves2020wellcalibrated, 
 
 
 ## <span style="font-size: 24px;font-weight: bold;">Keywords <a href="{{ site.baseurl }}/assets/pdf/pruning.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
-`Generative Adversarial Networks`, `Dense Connections`, `Skip Connections`, `L1 Loss`, `Adversarial Loss`, `Perceptual Loss`, `Differential Augmentation`, `PyTorch Implementation`, `GAN Discriminator`, `GAN Generator`, `Image Quality Metrics`, `PSNR`, `SSIM`, `Motion Deblurring`, `Deep Convolutional Networks`.
+`Neural Network Pruning`, `Lottery Ticket Hypothesis`, `Structured Pruning`, `Overfitting`, `PyTorch`, `CNN`. `FCC`, `Accuracy Metrics`, `Uncertainty Estimation`, `Monte-Carlo Drop Out`, `Reliability Diagram`,`Expected Caliberation Error`,`Out-Of-Distribution Test`.
 
 ## <span style="font-size: 24px;font-weight: bold;">Project Overview <a href="{{ site.baseurl }}/assets/pdf/Affects_of_Pruning_Neural_Network.pdf" title="CV"><i class="fas fa-file-pdf"></i></a></span>
-Our research project aims to address the common challenge in photography and computer vision: removing motion blur from images using the Deep Generative Adversarial Networks (GANs). Our model successfully restores sharpness and clarity to images that have been distorted by camera shake or subject movement.
+Our project focuses on implementing and researching various neural network pruning techniques, particularly extending the lottery ticket hypothesis to structured pruning. 
 
 <div class="row">
     <div class="col-sm-9 mt-md-0 mx-auto text-center">
-         {% include figure.html path="assets/img/deblurgan_ex.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         {% include figure.html path="assets/img/pruning_strats.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Blur, Sharp, and Generated Image
+    An illustration of various structured pruning strategies.
 </div>
 
-## <span style="font-size: 24px;font-weight: bold;">What is a Generative Adversarial Network (GAN)?</span>
-GAN model consists of two neural networks: a generator and a discriminator.The generator network generates synthetic data samples that resemble the training data, while the discriminator network tries to differentiate between the synthetic data and the real data. The generator is trained to produce realistic data while the discriminator is trained to distinguish between real and synthetic data. The networks work together in an adversarial manner to improve the generator's ability to generate realistic data.
+We aim to reduce model size while maintaining performance, accuracy, and uncertainty, and to decrease training time.
+
+{% raw %}
+<div class="lottery-ticket-hypothesis">
+  <h2>The Lottery Ticket Hypothesis</h2>
+  <p>A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.</p>
+</div>
+{% endraw %}
+
+
+<div class="row">
+    <div class="col-sm-9 mt-md-0 mx-auto text-center">
+         {% include figure.html path="assets/img/make_moons_acc.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Accuracy vs Pruning Ratio for Different Techniques
+</div>
+
+## <span style="font-size: 24px;font-weight: bold;">Uncertainity </span>
+ For a better understanding of calibration and the value of ECE, we performed an Out-of-Distribution (OOD) Detection on CIFAR100 dataset.
 
 <div class="row">
     <div class="col-sm-12 mt-md-0 mx-auto text-center">
-         {% include figure.html path="assets/img/gan.png" title="example image" class="img-fluid rounded z-depth-1" %}
+         {% include figure.html path="assets/img/cifar10.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Overview of GAN Structure: The generator output is connected directly to the discriminator input. Through backpropagation, the discriminator's classification provides a signal that the generator uses to update its weights.
+    CNN Model trained on CIFAR10 data set.
+</div>
+<div class="row">
+    <div class="col-sm-12 mt-md-0 mx-auto text-center">
+         {% include figure.html path="assets/img/ood_cifar100.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    Our analysis demonstrates that neural network pruning reallocates confidence intervals, evidenced from the reduced misclassification of **man** images in the 'deer' category after intensive pruning, enhancing the model's reliability and robustness.
 </div>
