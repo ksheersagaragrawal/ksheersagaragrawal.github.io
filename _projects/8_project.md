@@ -37,9 +37,7 @@ Our project focuses on implementing and researching various neural network pruni
 ## <span style="font-size: 24px;font-weight: bold;">Lottery Ticket Hypothesis</span>
 {% raw %}
 ```html
-<div class="lottery-ticket-hypothesis">
-  <p>A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.</p>
-</div>
+A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.
 ```
 {% endraw %}
 
@@ -54,17 +52,17 @@ We aim to reduce model size while maintaining performance, accuracy, and uncerta
     Accuracy vs Pruning Ratio for Different Techniques
 </div>
 
-## <span style="font-size: 24px;font-weight: bold;">Uncertainity </span>
+## <span style="font-size: 24px;font-weight: bold;">Uncertainity</span>
  For a better understanding of calibration and the value of ECE, we performed an Out-of-Distribution (OOD) Detection for CIFAR10 trained model on CIFAR100 dataset.
 
 <div class="row">
-    <div class="col-sm-4 mt-md-0 mx-auto text-center">
+    <div class="col-sm-5 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/cifar10.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-    <div class="col-sm-8 mt-md-0 mx-auto text-center">
+    <div class="col-sm-7 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/ood_cifar100.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Our analysis demonstrates that neural network pruning reallocates confidence intervals, evidenced from the reduced misclassification of <b>man</b> images in the <b>deer</> category after intensive pruning, enhancing the model's reliability and robustness.
+    Our analysis demonstrates that neural network pruning reallocates confidence intervals, evidenced by the reduced misclassification of <b style="font-weight: bold;">man</b> images in the <b style="font-weight: bold;">deer</b> category after intensive pruning, enhancing the model's reliability and robustness.
 </div>
