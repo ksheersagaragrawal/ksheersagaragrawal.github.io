@@ -34,18 +34,19 @@ Our project focuses on implementing and researching various neural network pruni
     An illustration of various structured pruning strategies.
 </div>
 
-We aim to reduce model size while maintaining performance, accuracy, and uncertainty, and to decrease training time.
-
+## <span style="font-size: 24px;font-weight: bold;">Lottery Ticket Hypothesis</span>
 {% raw %}
+```html
 <div class="lottery-ticket-hypothesis">
-  <h2>The Lottery Ticket Hypothesis</h2>
   <p>A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.</p>
 </div>
+```
 {% endraw %}
 
+We aim to reduce model size while maintaining performance, accuracy, and uncertainty, and to decrease training time.
 
 <div class="row">
-    <div class="col-sm-9 mt-md-0 mx-auto text-center">
+    <div class="col-sm-12 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/make_moons_acc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
@@ -54,21 +55,16 @@ We aim to reduce model size while maintaining performance, accuracy, and uncerta
 </div>
 
 ## <span style="font-size: 24px;font-weight: bold;">Uncertainity </span>
- For a better understanding of calibration and the value of ECE, we performed an Out-of-Distribution (OOD) Detection on CIFAR100 dataset.
+ For a better understanding of calibration and the value of ECE, we performed an Out-of-Distribution (OOD) Detection for CIFAR10 trained model on CIFAR100 dataset.
 
 <div class="row">
-    <div class="col-sm-12 mt-md-0 mx-auto text-center">
+    <div class="col-sm-4 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/cifar10.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
-</div>
-<div class="caption">
-    CNN Model trained on CIFAR10 data set.
-</div>
-<div class="row">
-    <div class="col-sm-12 mt-md-0 mx-auto text-center">
+    <div class="col-sm-8 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/ood_cifar100.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
 <div class="caption">
-    Our analysis demonstrates that neural network pruning reallocates confidence intervals, evidenced from the reduced misclassification of **man** images in the 'deer' category after intensive pruning, enhancing the model's reliability and robustness.
+    Our analysis demonstrates that neural network pruning reallocates confidence intervals, evidenced from the reduced misclassification of <b>man</b> images in the <b>deer</> category after intensive pruning, enhancing the model's reliability and robustness.
 </div>
