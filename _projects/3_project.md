@@ -3,7 +3,7 @@ layout: page
 title: Open Source Career Fair Application
 description: Open Source Web Application for Recruiters and College Campuses
 img: assets/img/placement_system.png
-# redirect: https://github.com/ksheersagaragrawal/placement_system
+redirect: https://github.com/ksheersagaragrawal/placement_system
 importance: 4
 category: Systems
 giscus_comments: true
@@ -18,5 +18,4 @@ repo: ksheersagaragrawal/placement_system
 </div>
 {% endif %}
 
-## <span style="font-size: 24px;font-weight: bold;">Yet to be Updated</span>
 

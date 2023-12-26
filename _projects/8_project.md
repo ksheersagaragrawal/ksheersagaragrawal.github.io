@@ -44,7 +44,7 @@ A randomly-initialized, dense neural network contains a subnetwork that is initi
 We aim to reduce model size while maintaining performance, accuracy, and uncertainty, and to decrease training time.
 
 <div class="row">
-    <div class="col-sm-12 mt-md-0 mx-auto text-center">
+    <div class="col-sm-9 mt-md-0 mx-auto text-center">
          {% include figure.html path="assets/img/make_moons_acc.png" title="example image" class="img-fluid rounded z-depth-1" %}
     </div>
 </div>
