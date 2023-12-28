@@ -39,11 +39,12 @@ To address this issue, I along with Prakti Saroj, developed the first iteration 
     No Backlog Certificate
     ---
 
-## <span style="font-size: 24px;font-weight: bold;">Technology Used</span>
-    ---
-    Front End: JavaScript, HTML, CSS, Bootstrap
-    Back End: Node.js, Express
-    Databases: Google Sheets
-    Others: Google Authentication, AppScript, NodeMailer
-    Deployment: Heroku Cloud Services, cPanel
-    ---
+```markdown
+> ##### TIP
+>Front End: JavaScript, HTML, CSS, Bootstrap
+>Back End: Node.js, Express
+>Databases: Google Sheets
+>Others: Google Authentication, AppScript, NodeMailer
+>Deployment: Heroku Cloud Services, cPanel 
+{: .block-tip }
+```
