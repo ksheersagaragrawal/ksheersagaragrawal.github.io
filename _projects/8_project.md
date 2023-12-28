@@ -35,11 +35,10 @@ Our project focuses on implementing and researching various neural network pruni
 </div>
 
 ## <span style="font-size: 24px;font-weight: bold;">Lottery Ticket Hypothesis</span>
-{% raw %}
-```html
-A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it can match the test accuracy of the original network after training for at most the same number of iterations.
-```
-{% endraw %}
+
+> A randomly-initialized, dense neural network contains a subnetwork that is initialized such that—when trained in isolation—it
+> can match the test accuracy of the original network after training for at most the same number of iterations.
+
 
 We aim to reduce model size while maintaining performance, accuracy, and uncertainty, and to decrease training time.
 
