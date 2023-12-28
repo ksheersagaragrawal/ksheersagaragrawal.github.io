@@ -6,5 +6,6 @@ description: an example of a blog post with disqus comments
 tags: comments
 categories: sample-posts external-services
 disqus_comments: true
+publsihed: false
 ---
 This post shows how to add DISQUS comments.
