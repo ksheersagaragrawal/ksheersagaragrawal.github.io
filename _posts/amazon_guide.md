@@ -8,7 +8,6 @@ tags: assessment tech
 categories: sample-posts
 thumbnail: assets/img/ksheer_amazon.jpg
 featured: true
-related_posts: true
 ---
 
 Redirecting to another page.
