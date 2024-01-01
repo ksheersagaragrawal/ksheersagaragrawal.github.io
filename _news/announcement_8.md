@@ -6,7 +6,7 @@ inline: false
 related_posts: false
 ---
 
-I'm excited to announce my role as a Software Development Intern at Amazon Go. During my time from May to July 2023, under the mentorship of Rohit Sharma, I worked on the Store Monitoring Squad in the Inventory Health Management Team. My focus was on the IhmWatchtowerTools, migrating and optimizing this store monitoring service to a serverless architecture using AWS Lambdas, resulting in significant performance improvements.
+I'm excited to announce my role as a Software Development Intern at Amazon Go. During my time from May to July 2023, under the mentorship of Rohit Sharma, I worked with the IHM-SAT Store Monitoring Team in the Inventory Health Management Org. My focus was on the IhmWatchtowerTools, migrating and optimizing this store monitoring service to a serverless architecture using AWS Lambdas, resulting in significant performance improvements.
 
 Key contributions included:
 - Working with Java, TypeScript, Spring Boot, AWS CDK, AWS Cloud Watch, AWS Lambdas, and other Amazon internal tools.
