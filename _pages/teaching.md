@@ -6,8 +6,10 @@ description: Explore the courses I've been involved in as a Teaching Assistant.
 nav: true
 nav_order: 5
 ---
+## <span style="font-size: 24px;font-weight: bold;">Teaching Assistant, IIT Gandhinagar - CS 432 Databases</span>
+*January 2024 - May 2024*
 
-## <span style="font-size: 24px;font-weight: bold;">Teaching Assistant, IIT Gandhinagar - ES 242 DSA 1</span>
+## <span style="font-size: 24px;font-weight: bold;">Teaching Assistant, IIT Gandhinagar - ES 242 Data Strcutures & Algorithms</span>
 *August 2022 - November 2022*
 
 As a Teaching Assistant at IIT Gandhinagar for the course [ES 242 DSA 1](https://www.neeldhara.com/courses/2022/03-es242/)
