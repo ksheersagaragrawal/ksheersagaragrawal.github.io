@@ -9,7 +9,7 @@ profile:
   image: linkedin.jpg
   image_circular: false # crops the image to make it circular
   address: >
-    <p>San Diego, USA</p>
+    <p>UC SanDiego, CA</p>
 
 news: true  # includes a list of news items
 latest_posts: false  # includes a list of the newest posts
@@ -17,7 +17,8 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: false  # includes social icons at the bottom of the page
 ---
 Systems builder at scale. AWS DynamoDB DAX → ML Infra/Platforms. Passionate about distributed systems for ML: training, inference, and agentic workloads.
----
+
+### What I Build
 
 I build systems that scale. My foundation in electrical engineering, computer systems, and competitive programming gives me a systems-first lens on ML infrastructure challenges.
 
